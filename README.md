@@ -1,8 +1,6 @@
 <div align="center">
     <img src="images/logo.png">
-    <a href="https://ryanccj.github.io/2022_Lab_Training/">
-        <h1 align="center">2022 Lab Training</h1>
-    </a>
+    <h1 align="center"><a href="https://ryanccj.github.io/2022_Lab_Training/">2022 Lab Training</a></h1>
     <p align="center">Welcome to CSBLab!</p>
 </div>
 
