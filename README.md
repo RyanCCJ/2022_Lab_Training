@@ -1,13 +1,21 @@
-# 2022 Lab Training
+<div align="center">
+    <img src="images/logo.png" width="80" height="80">
+    <h3 align="center">2022 Lab Training</h3>
+    <p align="center">
+        Welcome to join CSBLab!
+        <br>
+        <a href="https://ryanccj.github.io/2022_Lab_Training/"><strong>Official Website</strong></a>
+    </p>
+</div>
 
-## Skill in this Summer
+## 🔖 Skill in this Summer
 
 - Linux operation
 - Python basic data processing
 - Pandas、Numpy
 - Django
 
-## Schedule
+## 📅 Schedule
 ### Lesson1. Linux
 - 7/4（一）Terminal、Virtual Env、Firewall、Tools
 
@@ -22,9 +30,9 @@
 - 7/28（四）Homework review
 
 ### Lesson4. Django
-- 8/1（一）MTV Structure</p>
-- 8/4（四）Database、Models</p>
-- 8/8（一）Form、Ajax</p>
+- 8/1（一）MTV Structure
+- 8/4（四）Database、Models
+- 8/8（一）Form、Ajax
     
 ### Lesson5. Data Visualization (Advanced)
 - 8/15（一）Matplotlib、DataTables、Highcarts、D3.js
@@ -35,9 +43,11 @@
 ### Lesson7. NGS Data Analysis (Advanced)
 - 8/22（四）
 
-## Homework
+## ✏️ Homework
 Coming soon...
 
-## Reference
+## 📖 Reference
 - [1. 2021 Lab Training (github)](https://github.com/ttyy66995/lab_traning)
 - [2. 2021 Lab Training (videos)](https://drive.google.com/drive/folders/1kfnuFOqX9FIlL-0zkwwAL60jpEkEPSDD?usp=sharing)
+
+<p><img align="right" src="images/animation.gif"></p>
