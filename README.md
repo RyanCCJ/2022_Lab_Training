@@ -1,103 +1,43 @@
-# 2022_Lab_Traning
+# 2022 Lab Training
 
-:::info
-**July (4 weeks) + August(4.5 weeks)**
+## Skill in this Summer
 
-東恩：Linux(1)、Python(4)、Web(2)、Django(3) = 10 classes ≈ 5 weeks
+- Linux operation
+- Python basic data processing
+- Pandas、Numpy
+- Django
 
-目前：Linux(1)、Python(3)、Web(2)、Django(3)、D3.js(1) = 10 classes ≈ 5 weeks
-:::
+## Schedule
+### Lesson1. Linux
+- 7/4（一）Terminal、Virtual Env、Firewall、Tools
 
-## Lesson1 Linux
+### Lesson2. Python
+- 7/7（四）Data Structure、Statements
+- 7/11（一）Numpy、Pandas + hw1
+- 7/18（一）Homework review
 
-:::warning
-可能會重講，整合東恩與家偉的部分內容
-:::
+### Lesson3. Web
+- 7/21（四）HTML、CSS、JavaScript + hw2
+- 7/25（一）BootStrap、jQuery
+- 7/28（四）Homework review
 
-### Introduction
-- 什麼是 Linux？
-- 為什麼要使用 Linux？
+### Lesson4. Django
+- 8/1（一）MTV Structure</p>
+- 8/4（四）Database、Models</p>
+- 8/8（一）Form、Ajax</p>
+    
+### Lesson5. Data Visualization (Advanced)
+- 8/15（一）Matplotlib、DataTables、Highcarts、D3.js
 
-### Command
-- 基本指令操作
-- Vim
-- <mark>ssh & firewall</mark>
+### Lesson6. Front-end Framework (Advanced)
+- 8/18（四）React
 
-### Enviroment
-- Conda
-- virtualenvwrapper
-- pip
+### Lesson7. NGS Data Analysis (Advanced)
+- 8/22（四）
 
+## Homework
+Coming soon...
 
-### Other Tools
-- FileZilla
-- Jupyter Notebook
-- VScode
-- <mark>VMware</mark>
-- <mark>WSL</mark>
-- <mark>GIT ?</mark>
-
-## Lesson2 Python
-:::warning
-應該不用重講
-:::
-
-- 基本操作(Basic1 + Basic2)、Hw1
-- Numpy + Pandas、Hw2
-
-:::warning
-重講
-:::
-- <mark>程式進階(模組化、Pandas)</mark> ＋ 檢討作業
-
-## Lesson3 Web
-
-:::warning
-可能會重講
-:::
-
-### 基本架構
-- <mark>網路、伺服器</mark>
-- <mark>靜態網站概述</mark>
-- html、css、javascript
-
-### 其他補充
-:::warning
-重講
-:::
-- bootstrap、jquery
-- 檢討作業
-
-
-## Lesson4 Django
-:::warning
-應該會重講
-:::
-### 基本架構
-- <mark>伺服器、前後端、資料庫</mark>
-- Django MTV 架構
-- 建立專案與設定
-- templates、static、django server
-
-### 資料庫與模型
-- <mark>SQLite</mark>
-- MySQL
-- Models
-
-
-### 表單與非同步
-- HTML form
-- jQuery AJAX
-
-
-## Lesson5 Data Visualization
-:::warning
-伊婷？
-:::
-### 主要課程
-- matplotlib
-- DataTables
-- Highcarts
-- D3.js
-
-### 講解 project
+## Reference
+- [1. 2021 Lab Training (github)](https://github.com/ttyy66995/lab_traning)
+- [2. 2021 Lab Training (videos)](https://drive.google.com/drive/folders/1kfnuFOqX9FIlL-0zkwwAL60jpEkEPSDD?usp=sharing)
