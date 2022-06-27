@@ -1,11 +1,9 @@
 <div align="center">
-    <img src="images/logo.png" width="80" height="80">
-    <h3 align="center">2022 Lab Training</h3>
-    <p align="center">
-        Welcome to join CSBLab!
-        <br>
-        <a href="https://ryanccj.github.io/2022_Lab_Training/"><strong>Official Website</strong></a>
-    </p>
+    <img src="images/logo.png">
+    <a href="https://ryanccj.github.io/2022_Lab_Training/">
+        <h1 align="center">2022 Lab Training</h1>
+    </a>
+    <p align="center">Welcome to CSBLab!</p>
 </div>
 
 ## 🔖 Skill in this Summer
