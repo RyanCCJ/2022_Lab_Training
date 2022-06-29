@@ -1,8 +1,9 @@
 <div align="center">
     <img src="images/logo.png">
     <h1 align="center"><a href="https://ryanccj.github.io/2022_Lab_Training/">2022 Lab Training</a></h1>
-    <p align="center">Welcome to CSBLab!</p>
+    <h3 align="center">Welcome to CSBLab!</h3>
 </div>
+<br>
 
 ## 🔖 Skill in this Summer
 
@@ -13,31 +14,31 @@
 
 ## 📅 Schedule
 ### Lesson1. Linux
-- 7/4（一）Terminal、Virtual Env、Firewall、Tools
+- 7/4 (Mon) Terminal、Virtual Env、Firewall、Tools
 
 ### Lesson2. Python
-- 7/7（四）Data Structure、Statements
-- 7/11（一）Numpy、Pandas + hw1
-- 7/18（一）Homework review
+- 7/7 (Thu) Data Structure、Statements
+- 7/11 (Mon) Numpy、Pandas + hw1
+- 7/18 (Mon) Homework review
 
 ### Lesson3. Web
-- 7/21（四）HTML、CSS、JavaScript + hw2
-- 7/25（一）BootStrap、jQuery
-- 7/28（四）Homework review
+- 7/21 (Thu) HTML、CSS、JavaScript + hw2
+- 7/25 (Mon) BootStrap、jQuery
+- 7/28 (Thu) Homework review
 
 ### Lesson4. Django
-- 8/1（一）MTV Structure
-- 8/4（四）Database、Models
-- 8/8（一）Form、Ajax
+- 8/1 (Mon) MTV Structure
+- 8/4 (Thu) Database、Models
+- 8/8 (Mon) Form、Ajax
     
 ### Lesson5. Data Visualization (Advanced)
-- 8/15（一）Matplotlib、DataTables、Highcarts、D3.js
+- 8/15 (Mon) Matplotlib、DataTables、Highcarts、D3.js
 
 ### Lesson6. Front-end Framework (Advanced)
-- 8/18（四）React
+- 8/18 (Thu) React
 
 ### Lesson7. NGS Data Analysis (Advanced)
-- 8/22（四）
+- 8/22 (Thu)
 
 ## ✏️ Homework
 Coming soon...
