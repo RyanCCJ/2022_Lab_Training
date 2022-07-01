@@ -1,9 +1,4 @@
-<div align="center">
-    <img src="images/logo.png">
-    <h1 align="center"><a href="https://ryanccj.github.io/2022_Lab_Training/">2022 Lab Training</a></h1>
-    <h3 align="center">Welcome to CSBLab!</h3>
-</div>
-<br>
+# [2022 Lab Training](https://ryanccj.github.io/2022_Lab_Training)
 
 ## 🔖 Skill in this Summer
 
@@ -46,5 +41,3 @@ Coming soon...
 ## 📖 Reference
 - [1. 2021 Lab Training (github)](https://github.com/ttyy66995/lab_traning)
 - [2. 2021 Lab Training (videos)](https://drive.google.com/drive/folders/1kfnuFOqX9FIlL-0zkwwAL60jpEkEPSDD?usp=sharing)
-
-<p><img align="right" src="images/animation.gif"></p>
