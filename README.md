@@ -30,7 +30,7 @@ Numpy & Pandas (2021/07/13)<br>
     
 ### Lesson5. Data Visualization (Advanced)
 - 8/8 (Mon) Matplotlib、DataTables
-- 8/1 (Thu) Highcarts、D3.js
+- 8/11 (Thu) Highcarts、D3.js
 
 ### Lesson6. Front-end Framework (Advanced)
 - 8/15 (Mon) React
