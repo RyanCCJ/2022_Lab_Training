@@ -44,9 +44,9 @@ C:\Users\<your_name>\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindow
 ### 網路設定
 - 跟實驗室管理員確認你的固定 IP：140.116.214.xxx
 - 照下面設定 address、netmask、gateway
-- Windows：
+- Windows：<br>
   ![](https://i.imgur.com/5Fxqd4w.jpg)
-- Linux：
+- Linux：<br>
   ![](https://i.imgur.com/cNcmwcs.jpg)
 
 
@@ -325,19 +325,19 @@ Proceed with operation (y|n)?
 在 WSL 中無法使用 ufw，你需要設定 Windows 的防火牆規則。
 請在搜尋列中尋找「Windows Defender 防火牆」，按左邊的「進階設定」，打開「具有進階安全性的 Windows Defender 防火牆」。
 
-- 點選「輸入規則」，再點選「新增規則」：
+- 點選「輸入規則」，再點選「新增規則」：<br>
 ![](https://i.imgur.com/3Dqt95V.jpg)
 
-- 點選「連接埠」：
+- 點選「連接埠」：<br>
 ![](https://i.imgur.com/FB9X7IO.png)
 
-- 設定你的 Port（例如 Django 預設使用 8000）：
+- 設定你的 Port（例如 Django 預設使用 8000）：<br>
 ![](https://i.imgur.com/OJFUB6O.png)
 
 之後都按照預設，選「允許連線」，並全部套用規則，再自行命名這個規則的名稱即可。
 這樣就會讓這個 Port 對外打開。如果要限定學校 IP，需要進一步作設定。
 
-請找到剛剛的新規則，點進去後，選擇「領域」，在「遠端 IP 位址」輸入允許的 IP（例如：140.116.0.0/16），按下確定。
+請找到剛剛的新規則，點進去後，選擇「領域」，在「遠端 IP 位址」輸入允許的 IP（例如：140.116.0.0/16），按下確定。<br>
 ![](https://i.imgur.com/ighKlJJ.png)
 
 這樣就能順利擋下成大以外的 IP 。
@@ -348,8 +348,8 @@ Proceed with operation (y|n)?
 老師要求每台電腦只開放成大網域連線（非成大網域無法連進實驗室電腦），在家要使用成大網域連線得透過 VPN
 
 - [VPN 連線說明](https://cc.ncku.edu.tw/p/412-1002-7637.php?Lang=zh-tw)（已在成大網域內無法使用）
-- 可用軟體登入, 也能用成大網頁登入
-![](https://i.imgur.com/L36BvxW.png)
+- 可用軟體登入, 也能用成大網頁登入<br>
+![](https://i.imgur.com/L36BvxW.png)<br>
 ![](https://i.imgur.com/bONuQjd.png)
 
 ## Exercise
