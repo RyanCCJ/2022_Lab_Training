@@ -16,7 +16,7 @@
 Pyhton Basic1 (2021/07/06)、<br>
 Pyhton Basic2 (2021/07/09)、<br>
 Numpy & Pandas (2021/07/13)<br>
-- 7/14 (Thu) 進階補充 + Homework review
+- 7/14 (Thu) Homework review
 
 ### Lesson3. Web
 - 7/18 (Mon) HTML、CSS、JavaScript
@@ -39,7 +39,11 @@ Numpy & Pandas (2021/07/13)<br>
 - 8/18 (Thu)
 
 ## ✏️ Homework
-Coming soon...
+- Hw1: 整理每個基因有多少種 Transcripts
+- Hw2: 由 unspliced + UTRTranscriptSequence 整理資料表
+- Hw3: 由 unspliced + UTRTranscriptSequence 整理 spliced mRNA sequence
+- Hw4: 由 unspliced + UTRTranscriptSequence 整理 amino acid sequence
+- Final Project: 能呈現線蟲 mRNA structure 之網頁分析平台
 
 ## 📖 Reference
 - [1. 2021 Lab Training (github)](https://github.com/ttyy66995/lab_traning)
