@@ -45,9 +45,9 @@ C:\Users\<your_name>\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindow
 - 跟實驗室管理員確認你的固定 IP：140.116.214.xxx
 - 照下面設定 address、netmask、gateway
 - Windows：
-  ![](https://i.imgur.com/5Fxqd4w.jpg =75%x)
+  ![](https://i.imgur.com/5Fxqd4w.jpg)
 - Linux：
-  ![](https://i.imgur.com/cNcmwcs.jpg =75%x)
+  ![](https://i.imgur.com/cNcmwcs.jpg)
 
 
 ## Command
@@ -102,6 +102,7 @@ pip 是針對 python 的套件管理工具，專門下載 python 用的程式（
 $ sudo apt install -y vim
 ```
 ![](https://i.imgur.com/KyoxsOV.png)
+
 Cheat sheet:
 ![](https://i.imgur.com/TgsRyWm.png)
 
@@ -327,10 +328,10 @@ Proceed with operation (y|n)?
 - 點選「輸入規則」，再點選「新增規則」：
 ![](https://i.imgur.com/3Dqt95V.jpg)
 
-- 點選「連接埠」
+- 點選「連接埠」：
 ![](https://i.imgur.com/FB9X7IO.png)
 
-- 設定你的 Port（例如 Django 預設使用 8000）
+- 設定你的 Port（例如 Django 預設使用 8000）：
 ![](https://i.imgur.com/OJFUB6O.png)
 
 之後都按照預設，選「允許連線」，並全部套用規則，再自行命名這個規則的名稱即可。
@@ -348,7 +349,7 @@ Proceed with operation (y|n)?
 
 - [VPN 連線說明](https://cc.ncku.edu.tw/p/412-1002-7637.php?Lang=zh-tw)（已在成大網域內無法使用）
 - 可用軟體登入, 也能用成大網頁登入
-![](https://i.imgur.com/L36BvxW.png =50%x)
+![](https://i.imgur.com/L36BvxW.png)
 ![](https://i.imgur.com/bONuQjd.png)
 
 ## Exercise
