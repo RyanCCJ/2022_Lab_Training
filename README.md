@@ -8,15 +8,18 @@
 - Django
 
 ## 📅 Schedule
+
+[課程會議連結 Webex](https://nckucc.webex.com/join/z9802007)
+
 ### Lesson1. Linux
 - 7/4 (Mon) Terminal、Tools、Firewall、Virtual Env、IDE
+- 7/5 (Tue) 期末 Project 說明
 
 ### Lesson2. Python
 [自行觀看教學影片：](https://drive.google.com/drive/folders/1kfnuFOqX9FIlL-0zkwwAL60jpEkEPSDD)<br>
-Pyhton Basic1 (2021/07/06)、<br>
-Pyhton Basic2 (2021/07/09)、<br>
-Numpy & Pandas (2021/07/13)<br>
-- 7/14 (Thu) Homework review
+- 7/7 (Thu) Pyhton Basic1 (2021/07/06)
+- 7/11 (Mon) Pyhton Basic2 (2021/07/09)
+- 7/14 (Thu) Numpy & Pandas (2021/07/13)
 
 ### Lesson3. Web
 - 7/18 (Mon) HTML、CSS、JavaScript
