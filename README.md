@@ -43,9 +43,9 @@
 
 ## ✏️ Homework
 - Hw1: 整理每個基因有多少種 Transcripts
-- Hw2: 由 unspliced + UTRTranscriptSequence 整理資料表
-- Hw3: 由 unspliced + UTRTranscriptSequence 整理 spliced mRNA sequence
-- Hw4: 由 unspliced + UTRTranscriptSequence 整理 amino acid sequence
+- Hw2: 由 unspliced + UTRTranscriptSequence 整理 unspliced 資料表
+- Hw3: 由 unspliced + UTRTranscriptSequence 整理 spliced 資料表與 mRNA sequence
+- Hw4: 由 unspliced + UTRTranscriptSequence 整理 CDS 與 amino acid sequence
 - Final Project: 能呈現線蟲 mRNA structure 之網頁分析平台
 
 ## 📖 Reference
