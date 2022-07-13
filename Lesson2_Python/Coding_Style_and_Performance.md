@@ -261,6 +261,7 @@ for i in index:
 ```
 - 不同資料型態所佔的空間：
 <img src="https://i.imgur.com/8iulZ6y.png" width="600">
+
 - 建議在遇到大數據時，少用 List，多用 Numpy 宣告與操作陣列
 - 嚴格定義資料型態，最佳化記憶體大小
 
