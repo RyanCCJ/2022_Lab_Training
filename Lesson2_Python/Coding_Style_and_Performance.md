@@ -94,7 +94,7 @@ Tool2_3-->Project23_4;
 - 如果三個月後要你改呢？半年後呢？你真的知道你在寫什麼嗎？
 - 如果你的下屆學弟妹要繼續接手你的研究，他有辦法改 code 嗎？
 - **Spaghetti Code**
-![](https://i.imgur.com/YUQpluQ.png)
+<img src="https://i.imgur.com/YUQpluQ.png" width="400">
 
 > 寫程式很容易，但是把程式寫好很困難
 
