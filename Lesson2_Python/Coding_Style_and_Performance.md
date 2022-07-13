@@ -194,7 +194,7 @@ Jupyter Notebook 與 VScode 都有 Auto PEP8 套件可以使用。
 
 ### Python Module
 
-<img src="https://i.imgur.com/JvC1vNt.png" width="600">
+<img src="https://i.imgur.com/JvC1vNt.png" width="1000">
 
 - 模組 Module：
     - 一個 python 檔案就可以是一個 module，裡頭可以定義 variable、function、class
@@ -243,9 +243,9 @@ output = analysis.mapping_mRNA(norm_data)
 
 List 非常靈活，但是效能極差；Numpy 是基於 array 的架構，所以效能很好但不靈活；Pandas 則是 Numpy 的變形，用得好的話效能也是絕佳。
 
-![](https://i.imgur.com/axfb7pc.png)
+<img src="https://i.imgur.com/axfb7pc.png" width="1000">
 
-![](https://i.imgur.com/U5m7425.png)
+<img src="https://i.imgur.com/U5m7425.png" width="1000">
 
 - 範例：
 ```python=
@@ -278,7 +278,7 @@ for i in index:
 - O(n)：loop
 - O(n<sup>k</sup>)：nested loop
 
-![](https://i.imgur.com/s79YlvQ.jpg)
+<img src="https://i.imgur.com/s79YlvQ.jpg" width="1000">
 
 ### <span style="color:#F75D59;">站在巨人的肩膀上！</span>
 
@@ -354,7 +354,7 @@ equals() 無法詳細描述不同之處，雖然可以搭配 Pandas [compare()](
 
 可以判斷出 mismatch、deletion 的情況，詳情參考 [官方文件](https://docs.python.org/3/library/difflib.html)。
 
-![](https://i.imgur.com/TWR29aD.png)
+<img src="https://i.imgur.com/TWR29aD.png">
 
 ### 客製化測試
 有時候，雖然兩邊資料不一致，但在邏輯上應該要視為一樣。
