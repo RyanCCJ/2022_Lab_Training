@@ -299,5 +299,5 @@ x.addEventListener("click", () => {
 如果你已經練習過大部分的功能，甚至開始寫一些簡單的網頁，推薦可以閱讀這篇文章：[重新介紹 JavaScript](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/A_re-introduction_to_JavaScript)。
 
 ## Exercise
-1. 請自行去 W3schools 閱讀並練習 HTML、CSS、JavaScript 語法。
-2. 請產生一個自我介紹頁面，至少包含一張圖片、社群連結、三個動畫效果。
+- 請自行去 W3schools 閱讀並練習 HTML、CSS、JavaScript 語法。
+- 請產生一個自我介紹頁面，至少包含一張圖片、社群連結、三個動畫效果。
