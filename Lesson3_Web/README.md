@@ -185,7 +185,7 @@ h1, h2, p {
 }
 
 .container, .row {
-    
+  color: green;
 }
 
 #col_1, #col_2 {
