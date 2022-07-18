@@ -295,8 +295,9 @@ x.addEventListener("click", () => {
 });
 ```
 
+補充(一)：有時你調整 JavaScript 檔案，網頁不會立即反應，是因為瀏覽器本身可能儲存了 cache。可以開啟 Chrome DevTools，在重整頁面地方按右鍵，選擇「Empty Cache and Hard Reload」將 cache 全部清除。
 
-如果你已經練習過大部分的功能，甚至開始寫一些簡單的網頁，推薦可以閱讀這篇文章：[重新介紹 JavaScript](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/A_re-introduction_to_JavaScript)。
+補充(二)：如果你已經練習過大部分的功能，甚至開始寫一些簡單的網頁，推薦閱讀這篇文章：[重新介紹 JavaScript](https://developer.mozilla.org/zh-TW/docs/Web/JavaScript/A_re-introduction_to_JavaScript)。
 
 ## Exercise
 - 請自行去 W3schools 閱讀並練習 HTML、CSS、JavaScript 語法。
