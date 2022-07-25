@@ -373,7 +373,12 @@ equals() 無法詳細描述不同之處，雖然可以搭配 Pandas [compare()](
 - 無條件捨去：math.floor()
 
 
+## 補充資料
+- Code Structure 教學範例，請自行研究並參考 main.py：[Webex 會議錄製檔](https://nckucc.webex.com/nckucc/ldr.php?RCID=6e68f3c669d62a8d0c4d899c6ce1f1c8)，密碼：DksZCRs4
+
 
 ## Exercise
 - 請試著計算作業中每個步驟花費的時間
 - 請試著比較不同作法，有沒有更好？
+
+
