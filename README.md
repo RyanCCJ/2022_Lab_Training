@@ -27,19 +27,18 @@
 - 7/25 (Mon) Homework review
 
 ### Lesson4. Django
-- 7/28 (Thu) MTV Structure
+- 7/28 (Thu) MTV Structure、Templates
 - 8/1 (Mon) Database、Models
 - 8/4 (Thu) Form、Ajax
     
 ### Lesson5. Data Visualization (Advanced)
-- 8/8 (Mon) Matplotlib、DataTables
-- 8/11 (Thu) Highcarts、D3.js
+- 8/8 (Mon) Matplotlib、DataTables、Highcarts、D3.js
 
 ### Lesson6. Front-end Framework (Advanced)
-- 8/15 (Mon) React
+- 8/11 (Thu) React
 
 ### Lesson7. Deep Learning (Advanced)
-- 8/18 (Thu)
+- 8/15 (Mon)
 
 ## ✏️ Homework
 - Hw1: 整理每個基因有多少種 Transcripts
