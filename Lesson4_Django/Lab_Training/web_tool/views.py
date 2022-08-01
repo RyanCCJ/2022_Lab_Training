@@ -23,6 +23,6 @@ def index(request):
     genes = json.loads(json_string)
     '''
 
-    genes = Gene.objects.all()
+    genes = Gene.objects.all()[:10]
 
     return render(request, 'index.html', locals())
