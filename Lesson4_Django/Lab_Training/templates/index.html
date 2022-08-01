@@ -17,9 +17,9 @@
             {% for gene in genes %}
             <tr>
                 <th scope="row">{{ forloop.counter }}</th>
-                <td>{{ gene.id }}</td>
-                <td>{{ gene.transcript | cut:"'" }}</td>
-                <td>{{ gene.number }}</td>
+                <td>{{ gene.gene_id }}</td>
+                <td>{{ gene.transcript_id | cut:"'" }}</td>
+                <td>{{ gene.numbers }}</td>
             </tr>
             {% endfor %}
         </tbody>

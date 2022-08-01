@@ -1,3 +1,7 @@
 from django.contrib import admin
+from .models import Gene
 
-# Register your models here.
+class GeneAdmin(admin.ModelAdmin):
+    list_display = ('gene_id','transcript_id','numbers')
+
+admin.site.register(Gene, GeneAdmin)

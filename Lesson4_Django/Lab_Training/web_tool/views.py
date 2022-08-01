@@ -1,5 +1,6 @@
-from django.shortcuts import render
+from django.shortcuts import render, redirect
 from django.http import HttpResponse
+from web_tool.models import Gene
 from datetime import datetime
 import pandas as pd
 import json
@@ -11,14 +12,17 @@ def hello_world(request):
 
 def index(request):
 
+    '''
     df = pd.read_csv('data/hw1_output_ans.csv')
     df = df.head(10)
-    df = df.rename(columns={"Gene_ID": "id",
-                            "transcript_ID": "transcript",
-                            "# of transcripts": "number",
+    df = df.rename(columns={"Gene_ID": "gene_id",
+                            "transcript_ID": "transcript_id",
+                            "# of transcripts": "numbers",
                             })
     json_string = df.to_json(orient='records')
-    print(df)
     genes = json.loads(json_string)
+    '''
+
+    genes = Gene.objects.all()
 
     return render(request, 'index.html', locals())
