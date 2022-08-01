@@ -172,17 +172,17 @@ admin.site.register(Gene, GeneAdmin) #註冊Gene model
 
 ![](https://i.imgur.com/MhJdUv6.png)
 
-完成後，我們要讓前端能夠順利看到剛剛寫好的文章，必須重新設定 views 與 templates。
+完成後，我們要讓前端能夠順利看到剛剛新增的內容，必須重新設定 views 與 templates。
 
 打開 `web_tool/views.py`，改寫如下：
 ``` python
 from django.shortcuts import render
 from django.http import HttpResponse
-from .models import Post
+from .models import Gene
 
-def post(request):
+def index(request):
     genes = Gene.objects.all()
-    return render(request, 'post.html', locals())
+    return render(request, 'index.html', locals())
 ```
 
 接著進入 http://127.0.0.1:8000/web_tool/ ，就可以看到剛剛的資料顯示在前端。
