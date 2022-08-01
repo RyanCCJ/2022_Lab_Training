@@ -181,7 +181,7 @@ from django.http import HttpResponse
 from .models import Gene
 
 def index(request):
-    genes = Gene.objects.all()[:10]
+    genes = Gene.objects.all()
     return render(request, 'index.html', locals())
 ```
 
