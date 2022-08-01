@@ -181,7 +181,7 @@ from django.http import HttpResponse
 from .models import Gene
 
 def index(request):
-    genes = Gene.objects.all()
+    genes = Gene.objects.all()[:10]
     return render(request, 'index.html', locals())
 ```
 
@@ -221,6 +221,7 @@ Model 常用的資料格式 (Field) 與參數可以參考 [官方文件](https:/
 | verbose_name | admin 介面的欄位名稱 |
 
 ### 資料關係格式
+
 Model 有提供定義資料間關係的語法，可以將此模型指向另一個模型的主鍵 (primary key) 。如果沒有特別定義主鍵， Django 會在產生模型時自行增加一個 id 作為主鍵。
 
 | 格式 | 說明 |
