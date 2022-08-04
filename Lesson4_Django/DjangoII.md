@@ -14,7 +14,7 @@
 ### 使用 SQLite
 
 打開 `mysite/settings.py`，找到 database 的區塊：
-``` python
+```python
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
@@ -175,7 +175,7 @@ admin.site.register(Gene, GeneAdmin) #註冊Gene model
 完成後，我們要讓前端能夠順利看到剛剛新增的內容，必須重新設定 views 與 templates。
 
 打開 `web_tool/views.py`，改寫如下：
-``` python
+```python
 from django.shortcuts import render
 from django.http import HttpResponse
 from web_tool.models import Gene
@@ -354,7 +354,7 @@ admin.site.register(User, UserAdmin)
 ![](https://i.imgur.com/cyIYtMB.png)
 
 然後設計一個供使用者登入帳密的表單頁面 `form.html`：
-```htmlembedded
+```html
 {% extends 'base.html' %}
 {% load static %}
 {% block title %} Form Test {% endblock %}
@@ -404,7 +404,7 @@ admin.site.register(User, UserAdmin)
 
 我們在 `views.py` 中設計兩種讀取資料模式，一種是直接透過 SQL 語法的 where，另一種是使用 Django 內建的 ORM 語法 filter。
 
-```pyhton
+```python
 # views.py
 from django.db import connection
 from web_tool.models import User
