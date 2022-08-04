@@ -192,7 +192,7 @@ Ajax 全名 Asynchronous JavaScript and XML，是一種透過非同步方式，�
 JavaScript 本身就支援 Ajax 語法，然而 jQuery 很棒的一點是將 Ajax 語法簡化，變得更加易於使用。
 
 我們先新增第四個表單項目在 `form.html`:
-```htmlembedded
+``` html
 {% csrf_token %}
 <script>csrf_token= "{{ csrf_token }}"</script>
 
@@ -283,7 +283,7 @@ def ajax_data(request):
 
 我們進一步可以發現，Django 產生的 CSRF token 不需要被包裝在 \<form> 當中，所以可以直接將整組語法搬去 `base.html` 共用：
 
-```htmlembedded
+```html
 <!-- content -->
 {% csrf_token %}
 <script>
