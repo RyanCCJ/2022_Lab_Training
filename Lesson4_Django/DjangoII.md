@@ -157,7 +157,7 @@ admin.site.register(models.<your_class>,<your_admin_class>) #這行一定要寫�
 我們打開 `web_tool/admin.py`，將剛剛建立好的 model 放入後台來管理：
 ``` python
 from django.contrib import admin
-from .models import Gene
+from web_tool.models import Gene
 
 class GeneAdmin(admin.ModelAdmin): #設定Gene介面的外觀
     list_display = ('gene_id','transcript_id','numbers')
@@ -178,7 +178,7 @@ admin.site.register(Gene, GeneAdmin) #註冊Gene model
 ``` python
 from django.shortcuts import render
 from django.http import HttpResponse
-from .models import Gene
+from web_tool.models import Gene
 
 def index(request):
     genes = Gene.objects.all()
@@ -240,7 +240,7 @@ Model 有提供定義資料間關係的語法，可以將此模型指向另一�
 
 當我們要存取資料時，只要使用 ORM 語法即可，如以下範例：
 ``` python
-posts = Gene.objects.all() #取得此物件全部元素
+genes = Gene.objects.all() #取得此物件全部元素
 ```
 其他常用常用函式如下：
 
@@ -286,7 +286,7 @@ $ python -c "import django; print(django.__path__)"
 
 匯入資料表後，如果要在 Django 使用 ORM 語法，我們還必須將欄位寫入 `models.py` 中。可以直接利用以下指令來自動完成 model：
 ```bash
-$ python manage.py inspectdb > <your_app>/models.py
+$ python manage.py inspectdb > web_tool/models.py
 ```
 
 大家可以進入 `models.py`，比較看看自己寫的跟自動產生的模組有什麼不同？
@@ -316,3 +316,159 @@ Please select a fix:
  2) Quit, and let me add a default in models.py
 ```
 
+## 資料安全
+最後，我們來談談為什麼要使用 Django Model ORM 語法，而不是直接使用 SQL 語法來操作關聯式資料庫。
+
+之前曾經在模組化設計中提到過，我們為了資訊隱藏與獨立性，有時會將部分功能完全拆開。資料庫的設計、讀取方式本身可以是一門學問，有些公司甚至會有專業的資料庫工程師來做資料庫最佳化，並設計資料庫 API 給網頁後端工程師使用。
+
+使用 API 除了可以更專注在後台開發上，也可能防止駭客透過 SQL 語法的漏洞來入侵資料庫。
+
+### SQL injection
+
+SQL injection 是一種透過 SQL 語法來測試網站漏洞，進一步取得敏感資訊、竄改個資等目的，嚴重的話甚至能作為進階攻擊手段的跳板。
+
+![](https://i.imgur.com/TZZUDrC.png)
+
+為了測試 SQL injection，我們先試著建立一份含使用者個資的資料表在資料庫中：
+
+```python
+# models.py
+class User(models.Model):
+    user_id = models.CharField(max_length=100)
+    user_pass = models.CharField(max_length=100)
+    user_content = models.TextField()
+    
+    class Meta:
+        managed = False
+        db_table = 'web_tool_user'
+  
+    
+# admin.py
+from .models import User
+class UserAdmin(admin.ModelAdmin):
+    list_display = ('user_id','user_pass','user_content')
+admin.site.register(User, UserAdmin)
+```
+
+接著我們試著建立幾組用戶資訊：
+![](https://i.imgur.com/cyIYtMB.png)
+
+然後設計一個供使用者登入帳密的表單頁面 `form.html`：
+```htmlembedded
+{% extends 'base.html' %}
+{% load static %}
+{% block title %} Form Test {% endblock %}
+{% block content %}
+<div class="container">
+    <div class="card">
+        <div class="card-header fs-5 fw-bold">
+            SQL 測試表單
+        </div>
+        {% if message %} 
+        <div class="alert alert-warning">{{ message }}</div>
+        {% endif %}
+        <div class='card-body'>
+            <form name="comment" method="GET">
+                <label for="user_id">帳號：</label>
+                <input type="text" id="user_id" name="user_id">
+                <label for="user_pass">密碼：</label>
+                <input type="password" id="user_pass" name="user_pass" class="mb-2">
+                <hr>
+                <input type="submit" value="送出">
+                <input type="reset" value="清除">
+            </form>
+        </div>
+    </div>
+    <div class="card mt-3">
+        <div class="card-header fs-5 fw-bold">
+            ORM 測試表單
+        </div>
+        {% if message2 %} 
+        <div class="alert alert-warning">{{ message2 }}</div>
+        {% endif %}
+        <div class='card-body'>
+            <form name="comment" method="GET">
+                <label for="user_id2">帳號：</label>
+                <input type="text" id="user_id2" name="user_id2">
+                <label for="user_pass2">密碼：</label>
+                <input type="password" id="user_pass2" name="user_pass2" class="mb-2">
+                <hr>
+                <input type="submit" value="送出">
+                <input type="reset" value="清除">
+            </form>
+        </div>
+    </div>
+</div>
+{% endblock %}
+```
+
+我們在 `views.py` 中設計兩種讀取資料模式，一種是直接透過 SQL 語法的 where，另一種是使用 Django 內建的 ORM 語法 filter。
+
+```pyhton
+# views.py
+from django.db import connection
+from web_tool.models import User
+
+# 將 SQL 指令回傳的 List 轉成 Dict
+def dictfetchall(cursor):
+    columns = [col[0] for col in cursor.description]
+    return [
+        dict(zip(columns, row))
+        for row in cursor.fetchall()
+    ]
+
+
+def form(request):
+
+    # SQL Test
+    try:
+        id = request.GET['user_id']
+        password = request.GET['user_pass']
+        cursor = connection.cursor()
+        cursor.execute("SELECT * FROM web_tool_user WHERE user_id='{}' AND user_pass='{}'".format(id,password))
+        user = dictfetchall(cursor)
+        
+        if user:
+            message = user[0]['user_content']
+        else:
+            message = "ID or Password not found."
+            
+    except:
+        pass
+
+    # ORM Test
+    try:
+        id2 = request.GET['user_id2']
+        password2 = request.GET['user_pass2']
+        user2 = User.objects.filter(user_id=id2, user_pass=password2)
+
+        if user2:
+            message2 = user2[0].user_content
+        else:
+            message2 = "ID or Password not found."
+            
+    except:
+        pass
+    
+    return render(request, 'sql_test.html', locals())
+```
+
+最後我們加上網址：`path('form/', views.form)`，啟動 server 後可以看到以下內容：
+
+![](https://i.imgur.com/Y91SB5X.png)
+
+如果我們輸入正常的帳密，會回傳 `user_content` 到前端頁面；如果輸入錯誤，會回傳 `ID or Password not found`。
+
+那麼，究竟什麼是 **SQL injection ？**
+
+請試著在 SQL 測試表單中輸入 「帳號：**admin'\-\-** 」 與 「密碼：**123** 」 。神奇的事情出現了，你不需要正確的密碼就成功取得 admin 帳號的內容。
+
+為什麼會發生這種事？因為 `'` 相當於文字括號的後半，`--` 相當於註解，等於是把原本 `views.py` 中的 SQL 語法 `' AND user_pass='{}'"` 註解掉。
+
+這種透過非預期的輸入方式，來測試、攻擊資料庫的手段，就是 **SQL injection**。
+
+如果要預防這種注入方式，可以在後端進行特殊字元的判別，或是預先將所有輸入內容轉換編碼，防止被 SQL 直接解讀。然而，駭客攻擊的手段日新月異、防不勝防，我們很難靠自己建立完整的防禦體系。
+
+Django 提出了自己的 ORM 語法，將所有資料包在 API 介面之下，整合常見的防禦手段，讓你免去大部分的煩惱。
+
+![](https://i.imgur.com/tsJjuev.png)

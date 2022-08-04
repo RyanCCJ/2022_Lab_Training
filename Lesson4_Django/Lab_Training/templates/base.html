@@ -22,6 +22,10 @@
         </header>
         
         <!-- content -->
+        {% csrf_token %}
+        <script>
+            csrf_token= "{{ csrf_token }}"
+        </script>
         {% block content %} {% endblock %}
 
         <!-- footer -->

@@ -7,6 +7,7 @@
 # Feel free to rename the models, but don't rename db_table values or field names.
 from django.db import models
 
+
 class Gene(models.Model):
     gene_id = models.TextField(blank=True, primary_key=True)
     transcript_id = models.TextField(blank=True, null=True)
@@ -127,11 +128,11 @@ class DjangoSession(models.Model):
         db_table = 'django_session'
 
 
-class WebToolGene(models.Model):
-    gene_id = models.CharField(max_length=100)
-    transcript_id = models.CharField(max_length=100)
-    numbers = models.IntegerField()
+class User(models.Model):
+    user_id = models.CharField(max_length=100)
+    user_pass = models.CharField(max_length=100)
+    user_content = models.TextField()
 
     class Meta:
         managed = False
-        db_table = 'web_tool_gene'
+        db_table = 'web_tool_user'

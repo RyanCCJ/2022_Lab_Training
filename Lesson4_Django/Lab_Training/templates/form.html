@@ -1,0 +1,78 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block title %} Form Test {% endblock %}
+{% block content %}
+<div class="container">
+    <div class="card">
+        <div class="card-header fs-5 fw-bold">
+            SQL 測試表單 (GET)
+        </div>
+        {% if message %} 
+        <div class="alert alert-warning">{{ message }}</div>
+        {% endif %}
+        <div class='card-body'>
+            <form method="GET">
+                <label for="user_id">帳號：</label>
+                <input type="text" id="user_id" name="user_id">
+                <label for="user_pass">密碼：</label>
+                <input type="password" id="user_pass" name="user_pass">
+                <hr>
+                <input type="submit" value="送出">
+                <input type="reset" value="清除">
+            </form>
+        </div>
+    </div>
+    <div class="card mt-3">
+        <div class="card-header fs-5 fw-bold">
+            ORM 測試表單 (POST)
+        </div>
+        {% if message2 %} 
+        <div class="alert alert-warning">{{ message2 }}</div>
+        {% endif %}
+        <div class='card-body'>
+            <form method="POST">
+                {% csrf_token %}
+                <label for="user_id2">帳號：</label>
+                <input type="text" id="user_id2" name="user_id2">
+                <label for="user_pass2">密碼：</label>
+                <input type="password" id="user_pass2" name="user_pass2">
+                <hr>
+                <input type="submit" value="送出">
+                <input type="reset" value="清除">
+            </form>
+        </div>
+    </div>
+    <div class="card mt-3">
+        <div class="card-header fs-5 fw-bold">
+            ModelForm 測試表單
+        </div>
+        {% if message3 %} 
+        <div class="alert alert-warning">{{ message3 }}</div>
+        {% endif %}
+        <div class='card-body'>
+            <form method="POST">
+                {% csrf_token %}
+                {{ user_form.as_p }}
+                <hr>
+                <input type="submit" value="新增">
+                <input type="reset" value="清除">
+            </form>
+        </div>
+    </div>
+    <div class="card mt-3">
+        <div class="card-header fs-5 fw-bold">
+            Ajax 測試表單
+        </div>
+        <div id="message"></div>
+        <div class='card-body'>
+            <form id="ajax_form">
+                <label for="gene_id" class="form-label">Gene ID:</label>
+                <input type="text" class="form-control" name="gene_id" placeholder="eg. WBGene00000010">
+            </form>
+            <hr>
+            <button class="btn btn-outline-primary" id="submit">送出</button>
+        </div>
+    </div>
+</div>
+<script src="{% static 'js/form.js' %}"></script>
+{% endblock %}
