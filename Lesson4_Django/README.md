@@ -1,4 +1,4 @@
-# Django 大綱
+# Lesson4 Django
 
 ### 課程連結：
 - [Django I : MTV Structure、Templates](DjangoI.md)
