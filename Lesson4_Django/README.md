@@ -7,4 +7,3 @@
 
 ![](https://i.imgur.com/FuCOfxf.jpg)
 
-###### tags: `cosbi`
