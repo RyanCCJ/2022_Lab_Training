@@ -32,7 +32,7 @@
 - 8/4 (Thu) Form、Ajax
     
 ### Lesson5. Data Visualization (Advanced)
-- 8/8 (Mon) Matplotlib、DataTables、Highcarts、D3.js
+- 8/8 (Mon) Matplotlib、DataTables、Highcharts、D3.js
 
 ### Lesson6. Front-end Framework (Advanced)
 - 8/11 (Thu) React
