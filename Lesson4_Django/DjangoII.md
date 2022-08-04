@@ -450,7 +450,7 @@ def form(request):
     except:
         pass
     
-    return render(request, 'sql_test.html', locals())
+    return render(request, 'form.html', locals())
 ```
 
 最後我們加上網址：`path('form/', views.form)`，啟動 server 後可以看到以下內容：
