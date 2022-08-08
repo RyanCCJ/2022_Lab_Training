@@ -5,5 +5,5 @@
 - [Django II : Database、Models](DjangoII.md)
 - [Django III : Form、Ajax](DjangoIII.md)
 
-![](https://i.imgur.com/FuCOfxf.jpg)
+![](images/4-1.jpg)
 

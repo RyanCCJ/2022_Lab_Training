@@ -6,7 +6,7 @@
 
 當我們想做出美麗的網頁外觀，除了手刻 CSS，更簡便的做法是使用前端 CSS 框架，透過預先寫好的 class 樣式，大幅降低開發門檻。使用框架的缺點是，容易跟其他網站長得很像、不容易做出創新的設計、不容易彈性修改程式碼。但對於我們實驗室這種非設計取向的網站來說，CSS 框架非常實用。
 
-![](https://i.imgur.com/8pMM38E.png)
+![](images/3-8.png)
 
 目前市面上最主流的 CSS 框架是由 Twitter 開發的 [Bootstrap](https://getbootstrap.com)，且經由六角學院翻譯完整份 [中文文件](https://bootstrap5.hexschool.com)，非常適合新手入門。其他知名的框架像是 [Semantic UI](https://semantic-ui.com)、[Tailwind](https://tailwindcss.com) ，也有許多人選擇使用。
 
@@ -29,9 +29,9 @@
 
 - **範例(一）：** Outline 按鈕樣式
 
-![](https://i.imgur.com/zx61VzY.png)
+![](images/3-9.png)
 
-```htmlembedded
+```html
 <!-- HTML body -->
 <button type="button" class="btn btn-outline-primary">Primary</button>
 <button type="button" class="btn btn-outline-secondary">Secondary</button>
@@ -45,9 +45,9 @@
 
 - **範例(二)：** 十二欄系統
 
-![](https://i.imgur.com/nDY0FAA.png)
+![](images/3-10.png)
 
-```htmlembedded
+```html
 <!-- HTML body -->
 <div class="container">
   <div class="row">
@@ -85,7 +85,7 @@ Bootstrap 已經預先設計好 RWD 框架，只不過是以手機為出發視�
 
 傳統上在開發網頁前端，許多人會將 jQuery 配合著 JavaScript 一起使用；但是隨著時代演進，許多公司開始選擇使用前端框架（eg. React、Vue.js）來取代 jQuery。然而，jQuery 在台灣前端軟體業依然佔有極高的比重，且學習門檻較低，適合基本的學術網站使用。網頁技術日新月異，卻只有 jQuery 歷久不衰。
 
-![](https://i.imgur.com/TbCw4gc.png)
+![](images/3-11.png)
 
 有些人認為 jQuery 檔案較肥大，往往為了特定某些功能，就必須下載整包 jQuery 檔案，拖慢網頁執行時間。實際上最新的 `jquery-3.6.0.min.js` 才約 90KB，遠比不上一張圖片。
 
@@ -152,7 +152,7 @@ x.addEventListener("click", function(){
 
 Ajax 全名 Asynchronous JavaScript and XML，是一種透過非同步方式，與網頁後端互動的技術。使用者在前端按下 Submit 後，可以繼續瀏覽、操作網頁，不影響後端資料的傳輸與運算。
 
-![](https://i.imgur.com/LAiZBTz.png)
+![](images/3-12.png)
 
 jQuery 很棒的一點是將 Ajax 語法簡化，相當易於使用：
 ```javascript
@@ -177,7 +177,7 @@ jQuery 除了基本的 hide()、show()，也有一些類似 Bootstrap 的好用 
 ```javascript
 $("#test").datepicker();
 ```
-![](https://i.imgur.com/Kxt5vgA.png)
+![](images/3-13.png)
 
 ## Exercise
 - 試著在自我介紹頁面中加入一點 Bootstrap 元件

@@ -7,7 +7,7 @@
 
 資料庫 (Database, DB) 是一種系統化儲存資料的方法，他需要配合資料管理系統 (Database Management System, DBSM) 來存取資料，並利用結構化查詢語言 (Structured Query Language, SQL) 來快速搜尋我們要的資料。
 
-![](https://i.imgur.com/c1HFqxL.png)
+![](images/4-8.png)
 
 雖然我們可以用 python 直接讀取 csv 檔，可是一旦檔案過多、過大，每次反覆讀取整份文件就會浪費許多時間。這時適當使用資料庫可以有效幫我們節省資料讀取與搜尋的時間。
 
@@ -166,11 +166,11 @@ admin.site.register(Gene, GeneAdmin) #註冊Gene model
 ```
 啟動server後，進入 http://127.0.0.1:8000/admin ，便可以看到後台登入介面。輸入剛剛註冊過的管裡員帳號，就可以看到精美的資料庫頁面。
 
-![](https://i.imgur.com/zAb46I6.png)
+![](images/4-9.png)
 
 為了練習方便，我們先在這裡建立幾筆資料。
 
-![](https://i.imgur.com/MhJdUv6.png)
+![](images/4-10.png)
 
 完成後，我們要讓前端能夠順利看到剛剛新增的內容，必須重新設定 views 與 templates。
 
@@ -276,13 +276,13 @@ $ python -c "import django; print(django.__path__)"
 ### DB Browser
 首先選擇 Open Database，找到並打開你的 Django SQLite 資料庫；接著選擇 File > import > Table from CSV file，找到並打開你的 CSV 資料表。
 
-![](https://i.imgur.com/mw1zl9J.png)
+<img src="images/4-11.png" width="600">
 
 因為 CSV 本身沒有 data type 的描述，只有用 comma 來區分資料，所以如果直接用 DB Browser 來讀取，會自動偵測格式。如果格式偵測失敗，就需要另外修改資料格式。
 
 直接在 Database Structure 按下資料表，選擇 Modify Table，就可以修改特定 field 的名稱與格式。請注意，如果要將資料表給 Django 使用，必須設定 **primary key** 。只要選擇任一個 unique 欄位（ 或自己創建 index ），將 PK 欄位打勾就行。
 
-![](https://i.imgur.com/rvmJQdW.png)
+<img src="images/4-12.png" width="600">
 
 匯入資料表後，如果要在 Django 使用 ORM 語法，我們還必須將欄位寫入 `models.py` 中。可以直接利用以下指令來自動完成 model：
 ```bash
@@ -327,7 +327,7 @@ Please select a fix:
 
 SQL injection 是一種透過 SQL 語法來測試網站漏洞，進一步取得敏感資訊、竄改個資等目的，嚴重的話甚至能作為進階攻擊手段的跳板。
 
-![](https://i.imgur.com/TZZUDrC.png)
+![](images/4-13.png)
 
 為了測試 SQL injection，我們先試著建立一份含使用者個資的資料表在資料庫中：
 
@@ -351,7 +351,7 @@ admin.site.register(User, UserAdmin)
 ```
 
 接著我們試著建立幾組用戶資訊：
-![](https://i.imgur.com/cyIYtMB.png)
+![](images/4-14.png)
 
 然後設計一個供使用者登入帳密的表單頁面 `form.html`：
 ```html
@@ -455,7 +455,7 @@ def form(request):
 
 最後我們加上網址：`path('form/', views.form)`，啟動 server 後可以看到以下內容：
 
-![](https://i.imgur.com/Y91SB5X.png)
+![](images/4-15.png)
 
 如果我們輸入正常的帳密，會回傳 `user_content` 到前端頁面；如果輸入錯誤，會回傳 `ID or Password not found`。
 
@@ -471,4 +471,4 @@ def form(request):
 
 Django 提出了自己的 ORM 語法，將所有資料包在 API 介面之下，整合常見的防禦手段，讓你免去大部分的煩惱。
 
-![](https://i.imgur.com/tsJjuev.png)
+![](images/4-16.png)

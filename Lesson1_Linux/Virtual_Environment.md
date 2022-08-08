@@ -104,7 +104,7 @@ $ mkvirtualenv -p python3 "<YOUR VENV NAME>"
 Anaconda 是許多 python 使用者都會安裝的一個工具，包含常用的 Jupyter Notebook、PyCharm...，當然也可以透過它設定虛擬環境。
 
 在 Anaconda Navigator，可以很直觀地在介面左上方點選「Environments」，直接安裝與管理所需要的環境和套件，非常方便。
-![Anaconda ENV](https://i.imgur.com/RgZyKNL.png)
+![Anaconda ENV](images/1-16.png)
 
 若是要使用 Terminal 操作，則可輸入以下指令：
 

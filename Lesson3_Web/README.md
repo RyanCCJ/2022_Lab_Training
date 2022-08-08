@@ -4,7 +4,7 @@
 
 在開始之前，我們先來認識網站基礎架構。
 
-![](https://i.imgur.com/oxSQh6R.png)
+![](images/3-1.png)
 
 首先，網站一般可分為「前端」與「後端」，前端是一般使用者透過瀏覽器（Chrome、Safari、Firefox...）或 APP 所看到的各種資料與美麗頁面。一般網頁前端工程師與設計師即是在滿足所需功能的前提下，努力將頁面做得美美的。
 
@@ -14,7 +14,7 @@ Server 的架設可以使用一些軟體諸如 Apache、Nginx、Express，架在
 
 當使用者透過瀏覽器連接某個網址，其實是丟一個 request 給 Server 上的後端程式，後端則會根據需求回傳一個前端網頁，這樣瀏覽器就能接收並解讀成頁面資訊。
 
-![](https://i.imgur.com/OD9ZAfd.png)
+![](images/3-2.png)
 
 例如，如果我們連上實驗室的網頁工具： **pirScan** (http://cosbi4.ee.ncku.edu.tw/pirScan/)，即是透過 http 協定，連結到「cosbi4.ee.ncku.edu.tw」這個網域中的「pirScan」這個路徑。Apache 後端會根據設定，去路徑中抓相對應的 HTML 頁面，回傳給瀏覽器看。
 
@@ -76,7 +76,7 @@ DNS Server 是層層相連的，如果今天要連線 cosbi4.ee.ncku.edu.tw，�
 
 前端網頁由三大要素構成： **HTML、CSS、JavaScript** 。
 
-![](https://i.imgur.com/uViH9gR.png)
+![](images/3-3.png)
 
 在傳統觀念中，HTML 就像是網頁的骨架，負責規劃整體架構與內文；CSS 就像是外皮，負責美化網頁的外觀，包含排版、字體、顏色等等；JavaScript 就像是靈魂，負責讓網頁跟使用者互動，甚至串接後端程式與資料庫。
 
@@ -100,7 +100,7 @@ DNS Server 是層層相連的，如果今天要連線 cosbi4.ee.ncku.edu.tw，�
 - `<body>`
     網頁的主要內容，所有在畫面看得到的元素都放在裡面
 
-```htmlembedded
+```html
 <!DOCTYPE html>
 <html>
     <head>
@@ -130,7 +130,7 @@ DNS Server 是層層相連的，如果今天要連線 cosbi4.ee.ncku.edu.tw，�
 
 #### 區塊標籤
 
-![](https://i.imgur.com/Xccz0fY.gif)
+![](images/3-4.gif)
 
 - `<main>` 主要內容
 - `<header>` 網頁標頭，經常包含 logo、標題、導航列
@@ -176,7 +176,7 @@ DNS Server 是層層相連的，如果今天要連線 cosbi4.ee.ncku.edu.tw，�
 ### CSS
 階層式樣式表（Cascading Style Sheets，簡稱 CSS），是一種用來為結構化文件（如 HTML）添加樣式的語言，可參考 [W3Schools 範例](https://www.w3schools.com/css/css_intro.asp)。
 
-![](https://i.imgur.com/j9pUNDa.gif)
+![](images/3-5.gif)
 
 ```css=
 h1, h2, p {
@@ -229,7 +229,7 @@ h1, h2, p {
 
 JavaScript 是一種為了擴充 HTML 功能所開發的程式語言，基本上與 Java 完全沒有關係（容易使人誤解）。它可以用來整合非常多套件，且支援物件導向語法，長年以來盤踞最熱門的語言前幾名。
 
-![](https://i.imgur.com/xetkYd4.png)
+![](images/3-6.png)
 
 如同 CSS ，JavaScript 也可以透過標籤直接插入 HTML 如下：
 ```htmlembedded
@@ -281,7 +281,7 @@ var add = (x, y) => x + y;
 #### DOM
 Document Object Model 是一種結構化存取文件內物件的方式。
 
-![](https://i.imgur.com/qEfdjDm.gif)
+![](images/3-7.gif)
 
 - **範例(一)：** 修改所有 col 內的內容
 ```javascript

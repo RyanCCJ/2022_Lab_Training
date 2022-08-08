@@ -36,12 +36,12 @@ plt.savefig('test.png')
 plt.show()                    
 ```
 
-![](https://i.imgur.com/Cku0eai.png)
+![](images/5-1.png)
 
 
 在 Step 2 中，我們首先產生一張空畫布 figure；在 Step 3 & 4 中，我們使用 plt 套件在畫布上繪圖。除了上述範例，Matplotlib 還能針對圖表中許多細節進行調整，舉例如下：
 
-![](https://i.imgur.com/4xlNKoG.jpg)
+<img src="images/5-2.jpg" width="800">
 
 有時候，我們會需要一次並列很多圖片，這時我們可以在畫布上創造許多子圖片 subplot，其位置是透過行、列、編號來定位。
 
@@ -58,7 +58,7 @@ ax6 = fig.add_subplot(339)
 plt.show()
 ```
 
-![](https://i.imgur.com/MMbHEgC.png)
+<img src="images/5-3.jpg" width="600">
 
 之後我們就可以針對每張子圖片繪製座標與圖表資料，舉例如下：
 ```python
@@ -71,7 +71,7 @@ ax.fill_between(x, y1, y2, color='green', alpha=0.3)
 ax.set_title(target+'_STOP100 codon')
 ax.legend(bbox_to_anchor=(1.05,0.8), loc='upper left')
 ```
-![](https://i.imgur.com/oV4vHN0.jpg)
+![](images/5-4.jpeg)
 
 ## Seaborn
 
@@ -97,15 +97,15 @@ sns.histplot(data=penguins, x="species", hue="species", shrink=0.8, legend=False
 fig.tight_layout()
 ```
 
-![](https://i.imgur.com/jogh73S.png)
+<img src="images/5-5.jpg" width="800">
 
-![](https://i.imgur.com/gnSwSxo.png)
+![](images/5-6.png)
 
 使用高階函式庫，可以幫助我們迅速畫出複雜的視覺化圖表：
 ```python
 sns.jointplot(data=penguins, x="flipper_length_mm", y="bill_length_mm", hue="species")
 ```
-![](https://i.imgur.com/zze880J.png)
+![](images/5-7.png)
 
 ## DataTables
 
@@ -113,7 +113,7 @@ sns.jointplot(data=penguins, x="flipper_length_mm", y="bill_length_mm", hue="spe
 
 [DataTables](https://datatables.net) 是好用的前端表格繪製工具，能夠客製化許多細節，如顯示方式、分頁、搜尋框、排序等常用功能，也可以保留 Bootstrap 樣式，非常方便。
 
-![](https://i.imgur.com/Iujk5Ir.png)
+<img src="images/5-8.png" width="800">
 
 我們可以使用 CDN 的方式引入 HTML header 中：
 ```html
@@ -147,7 +147,7 @@ $.ajax({
     },
 });
 ```
-![](https://i.imgur.com/OPG2BiK.png)
+![](images/5-9.png)
 
 **注意：** `#table` 本身必須是 \<table>，不能是 \<div> 或其他 HTML tag。
 
@@ -158,8 +158,8 @@ Highcharts 是一個用純JavaScript編寫的一個前端圖表庫，
 能夠免費提供給個人學習、個人網站和非商業用途使用。
 HighCharts 官網: https://www.highcharts.com/demo
 HighCharts支持的圖表類型有很多，如下:
-- ![](https://i.imgur.com/yhSFF2h.png)
-- ![](https://i.imgur.com/WBeHI8U.png)
+- ![](images/5-10.png)
+- ![](images/5-11.png)
 可以去 highcharts 提供的 api document 上看有沒有自己需要的 type 和他提供的功能
 https://api.highcharts.com/highcharts/series
 
@@ -179,7 +179,7 @@ https://api.highcharts.com/highcharts/series
 3. 繪製表格 
 接下來我們只要根據 Highcharts 制定好的方法將資料帶入並設定。
 - 圖表中重要的元素(會根據 type 不同有不同的組成)
-    - ![](https://i.imgur.com/Pmtjnns.png)
+    - ![](images/5-12.png)
     透過上面的示意圖可以發現，Highcharts 圖表可以粗略的分成這七個主要區塊加上一個整體設定，並且在 options 物件中都有對應的屬性，Highcharts 本身都有預設設定，未必每個區塊都要額外修改。
     ```=javascript
         {

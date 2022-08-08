@@ -40,8 +40,6 @@ HTTP Method 定義了一些能從特定網址，執行特定操作的請求方�
 
 首先，我們回到 Django 第二章最後一節「資料安全」，來看一下如何用傳統方式做出一個 HTML 表單：
 
-
-
 ``` html
 <div class="card">
     <div class="card-header fs-5 fw-bold">
@@ -64,7 +62,7 @@ HTTP Method 定義了一些能從特定網址，執行特定操作的請求方�
 </div>
 ```
 
-![](https://i.imgur.com/uk59u8i.png)
+![](images/4-17.png)
 
 這裡我們先示範用 GET 方式來接收表單，我們到 `views.py` 修改如下：
 ``` python
@@ -174,7 +172,7 @@ def form(request):
 
 完成後即可順利在 http://127.0.0.1:8000/web_tool/form/ 中註冊新帳戶進資料庫。
 
-![](https://i.imgur.com/pibGNJ3.png)
+![](images/4-18.png)
 
 ModelForm 的好處在於可以直接與資料庫連動，對於簡單的讀寫操作比較方便。
 
@@ -187,7 +185,7 @@ ModelForm 的好處在於可以直接與資料庫連動，對於簡單的讀寫�
 
 Ajax 全名 Asynchronous JavaScript and XML，是一種透過非同步方式，與網頁後端互動的技術。使用者在前端按下 Submit 後，可以繼續瀏覽、操作網頁，不影響後端資料的傳輸與運算。
 
-![](https://i.imgur.com/LAiZBTz.png)
+![](images/4-19.png)
 
 JavaScript 本身就支援 Ajax 語法，然而 jQuery 很棒的一點是將 Ajax 語法簡化，變得更加易於使用。
 
@@ -279,7 +277,7 @@ def ajax_data(request):
 
 啟動伺服器，進行測試後可以發現，送出表單不會刷新頁面，而是直接透過 `ajax_form/` 路徑傳遞資料，再透過 jQuery 更新前端頁面。
 
-![](https://i.imgur.com/hOMSBnJ.png)
+![](images/4-20.png)
 
 我們進一步可以發現，Django 產生的 CSRF token 不需要被包裝在 \<form> 當中，所以可以直接將整組語法搬去 `base.html` 共用：
 

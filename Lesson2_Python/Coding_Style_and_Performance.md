@@ -94,7 +94,7 @@ Tool2_3-->Project23_4;
 - 如果三個月後要你改呢？半年後呢？你真的知道你在寫什麼嗎？
 - 如果你的下屆學弟妹要繼續接手你的研究，他有辦法改 code 嗎？
 - **Spaghetti Code**
-<img src="https://i.imgur.com/YUQpluQ.png" width="600">
+<img src="images/2-1.png" width="600">
 
 > 寫程式很容易，但是把程式寫好很困難
 
@@ -120,7 +120,7 @@ Tool2_3-->Project23_4;
 
 例如：我在分析 transcript Start/Stop codon 分佈時，可能會做很多類似的圖（如下）。
 
-<img src="https://i.imgur.com/oV4vHN0.jpg">
+<img src="images/2-2.jpg">
 
 雖然都是並排呈現的折線圖，但是上下四張彼此有著不同的作圖邏輯，未來也可能會進行不同的調整（增減資料、改軸距、改顏色...），如果硬是寫進同一個底層 method，參數會太多，使用不易且難以修改。
 
@@ -194,7 +194,7 @@ Jupyter Notebook 與 VScode 都有 Auto PEP8 套件可以使用。
 
 ### Python Module
 
-<img src="https://i.imgur.com/JvC1vNt.png" width="800">
+<img src="images/2-3.png" width="800">
 
 - 模組 Module：
     - 一個 python 檔案就可以是一個 module，裡頭可以定義 variable、function、class
@@ -243,9 +243,9 @@ output = analysis.mapping_mRNA(norm_data)
 
 List 非常靈活，但是效能極差；Numpy 是基於 array 的架構，所以效能很好但不靈活；Pandas 則是 Numpy 的變形，用得好的話效能也是絕佳。
 
-<img src="https://i.imgur.com/axfb7pc.png" width="800">
+<img src="images/2-4.png" width="800">
 
-<img src="https://i.imgur.com/U5m7425.png" width="800">
+<img src="images/2-5.png" width="800">
 
 - 範例：
 ```python=
@@ -260,7 +260,7 @@ for i in index:
     array[i] = data[i]
 ```
 - 不同資料型態所佔的空間：
-<img src="https://i.imgur.com/8iulZ6y.png" width="600">
+<img src="images/2-6.png" width="600">
 
 - 建議在遇到大數據時，少用 List，多用 Numpy 宣告與操作陣列
 - 嚴格定義資料型態，最佳化記憶體大小
@@ -279,7 +279,7 @@ for i in index:
 - O(n)：loop
 - O(n<sup>k</sup>)：nested loop
 
-<img src="https://i.imgur.com/s79YlvQ.jpg" width="800">
+<img src="images/2-7.jpg" width="800">
 
 ### <span style="color:#F75D59;">站在巨人的肩膀上！</span>
 
@@ -337,7 +337,7 @@ for i in index:
 
 - [Excel 在數據科學上的謬誤](https://genomebiology.biomedcentral.com/articles/10.1186/s13059-016-1044-7)
 
-<img src="https://i.imgur.com/msYkn5z.jpg" width="600">
+<img src="images/2-8.jpg" width="600">
 
 ### Pandas 
 
@@ -355,7 +355,7 @@ equals() 無法詳細描述不同之處，雖然可以搭配 Pandas [compare()](
 
 可以判斷出 mismatch、deletion 的情況，詳情參考 [官方文件](https://docs.python.org/3/library/difflib.html)。
 
-<img src="https://i.imgur.com/TWR29aD.png">
+<img src="images/2-9.png">
 
 ### 客製化測試
 有時候，雖然兩邊資料不一致，但在邏輯上應該要視為一樣。

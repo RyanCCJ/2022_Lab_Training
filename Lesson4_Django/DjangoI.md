@@ -12,7 +12,7 @@
 
 透過將應用程式模組化，可以將網站的複雜功能區分開來，專注在 Model、View、Controller 三個部分的開發。
 
-![](https://i.imgur.com/9QyJQuX.png)
+![](images/4-2.png)
 
 Django 繼承了傳統 MVC 架構，使用了自己的 MTV 架構，分別是 Model、Template、View。分別介紹如下：
 
@@ -22,7 +22,7 @@ Django 繼承了傳統 MVC 架構，使用了自己的 MTV 架構，分別是 Mo
 
 當用戶發起 request（即瀏覽器輸入網址），Django 框架會在 `urls.py` 中尋找相應的動作，通常是工程師寫在 `views.py` 之中的某個功能函式、或是某個第三方服務（像是社群軟體登入）；有時候可能還會需要透過 `models.py` 去存取資料庫內容（像是會員註冊、留言）。當這一切流程跑完後，會將結果渲染到前端頁面去 (html templates)。
 
-![](https://i.imgur.com/EuumLGt.png)
+![](images/4-3.png)
 
 
 ## Django 架構與功能
@@ -85,7 +85,7 @@ Quit the server with CONTROL-C.
 
 終端機會提示你伺服器已經啟動，以及一些 migrations 尚未執行（暫時不用理它）。只要按照提示，開啟瀏覽器並輸入 http://127.0.0.1:8000/ 或是 http://localhost:8000/ ，就會看到你的第一個網頁畫面。
 
-![](https://i.imgur.com/fEsEqEH.png)
+![](images/4-4.png)
 
 ### 讓外部連線
 一般創建完 Django project 就可以直接使用 localhost 在瀏覽器查看網站，但不能讓其他電腦連線進來，得另外作設定。請用任何程式編輯器打開 `Lab_Training/settings.py`，修改以下地方：
@@ -252,7 +252,7 @@ def hello_world(request):
 ```
 這裡，我們利用 render() 函數來渲染模板，利用 locals() 函數來打包所有變數。改完後結果如下：
 
-![](https://i.imgur.com/xKKIl1L.png)
+![](images/4-5.png)
 
 美化過的頁面出來了，可以開始進一步做網頁設計與規劃。
 
@@ -262,7 +262,7 @@ def hello_world(request):
 
 我們來重新檢視之前提過的網頁工具範例：**[pirScan](http://cosbi4.ee.ncku.edu.tw/pirScan/)**
 
-![](https://i.imgur.com/OD9ZAfd.png)
+![](images/4-6.png)
 
 - **Scan**
     - **Header：** Navigation Bar
@@ -431,7 +431,7 @@ urlpatterns = [
 
 全部完成後，進入 http://localhost:8000/ ，成果如下：
 
-![](https://i.imgur.com/BUhon9y.png)
+![](images/4-7.png)
 
 這樣我們的首頁模板就完成了，以下再附上一些常用的 Django Templates 語法：
 
