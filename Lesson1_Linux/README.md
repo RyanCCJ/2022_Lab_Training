@@ -45,7 +45,7 @@ C:\Users\<your_name>\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindow
 - 跟實驗室管理員確認你的固定 IP：140.116.214.xxx
 - 照下面設定 address、netmask、gateway
 - Windows：<br>
-  ![](https://i.imgur.com/5Fxqd4w.jpg)
+<img src="../images/Lesson1/1-1.jpg" width="600">
 - Linux：<br>
   ![](https://i.imgur.com/cNcmwcs.jpg)
 
