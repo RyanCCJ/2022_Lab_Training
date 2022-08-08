@@ -93,7 +93,8 @@
         <div class="alert alert-warning" role="alert">
           有人反應 DjangoII 最後面的 User Model 加進去後，Admin 介面會掛掉。<br>
           原因是因為 Django 只認得 User，不認得 web_tool_user；但是站在資料庫的角度來看(DB Browesr)，只認得 web_tool_user(真正的資料表名稱)。<br>
-          建議大家建立 User Model 時把 Meta 資訊拿掉（已經更新過教學文件）。 
+          建議大家建立 User Model 時把 Meta 資訊拿掉（已經更新過教學文件）。<br>
+          如果資料庫已經掛掉了，建議直接砍掉 SQLite 資料庫跟 migrations 檔案，全部重建比較快。 
         </div>
 
         <div class="row">
