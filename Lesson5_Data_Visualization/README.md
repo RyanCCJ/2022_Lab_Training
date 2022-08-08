@@ -58,7 +58,7 @@ ax6 = fig.add_subplot(339)
 plt.show()
 ```
 
-<img src="images/5-3.jpg" width="600">
+<img src="images/5-3.png" width="600">
 
 之後我們就可以針對每張子圖片繪製座標與圖表資料，舉例如下：
 ```python
@@ -71,7 +71,7 @@ ax.fill_between(x, y1, y2, color='green', alpha=0.3)
 ax.set_title(target+'_STOP100 codon')
 ax.legend(bbox_to_anchor=(1.05,0.8), loc='upper left')
 ```
-![](images/5-4.jpeg)
+![](images/5-4.jpg)
 
 ## Seaborn
 
