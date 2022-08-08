@@ -337,10 +337,6 @@ class User(models.Model):
     user_id = models.CharField(max_length=100)
     user_pass = models.CharField(max_length=100)
     user_content = models.TextField()
-    
-    class Meta:
-        managed = False
-        db_table = 'web_tool_user'
   
     
 # admin.py
