@@ -45,9 +45,9 @@ C:\Users\<your_name>\AppData\Local\Packages\CanonicalGroupLimited.UbuntuonWindow
 - 跟實驗室管理員確認你的固定 IP：140.116.214.xxx
 - 照下面設定 address、netmask、gateway
 - Windows：<br>
-<img src="../images/Lesson1/1-1.jpg" width="600">
+    <img src="images/1-1.jpg" width="600">
 - Linux：<br>
-  ![](https://i.imgur.com/cNcmwcs.jpg)
+    <img src="images/1-2.jpg" width="600">
 
 
 ## Command
@@ -101,10 +101,10 @@ pip 是針對 python 的套件管理工具，專門下載 python 用的程式（
 ```bash
 $ sudo apt install -y vim
 ```
-![](https://i.imgur.com/KyoxsOV.png)
+![](images/1-3.png)
 
 Cheat sheet:
-![](https://i.imgur.com/TgsRyWm.png)
+![](images/1-4.png)
 
 -  vi / vim + filename 即可以創建或編寫文件、程式
 - 滑鼠與數字鍵無法使用
@@ -153,7 +153,7 @@ $ ssh username@140.116.214.xxx -p 22
 ```bash
 $ sudo apt install -y tmux
 ```
-![](https://i.imgur.com/quLe4EI.png)
+![](images/1-5.png)
 
 - 分割工作視窗
     - 橫切：先輸入 `ctrl+b` 再輸入 `%`
@@ -170,7 +170,7 @@ $ sudo apt install -y tmux
 
 ### FileZilla
 
-![](https://i.imgur.com/7VOOoKs.png)
+![](images/1-6.png)
 
 有時候我們只是想存取遠端檔案，不需進行複雜的操作，這時有個圖形化介面非常好用。
 - 至 [FileZilla](https://filezilla-project.org/) 官網下載安裝 Client 版
@@ -178,7 +178,7 @@ $ sudo apt install -y tmux
 
 ### Anaconda
 
-![](https://i.imgur.com/JoMyq5A.png)
+![](images/1-7.png)
 
 Anaconda 是資料科學和機器學習領域非常熱門的平台，整合套件管理與程式開發等功能，許多初學者選擇用它來開發 python 程式。
 
@@ -190,7 +190,7 @@ Anaconda 是資料科學和機器學習領域非常熱門的平台，整合套�
 
 ### Jupyter Notebook
 
-![](https://i.imgur.com/2aknnqO.png)
+![](images/1-8.png)
 
 Jupyter Notebook 是一個 web-based 開發環境，透過在電腦特定 port 開啟 notebook server，讓使用者可以隨時連線寫程式。
 
@@ -224,7 +224,7 @@ $ ssh username@140.116.214.xxx -p 22 -L 8888:127.0.0.1:8888
 
 ### VScode
 
-![](https://i.imgur.com/454OxD8.png)
+![](images/1-9.png)
 
 雖然 Jupyter Notebook 就能做到程式開發，但我們最終還是必須輸出成可執行的 python 檔案，故需要學習正規編寫程式的方法。
 
@@ -326,19 +326,19 @@ Proceed with operation (y|n)?
 請在搜尋列中尋找「Windows Defender 防火牆」，按左邊的「進階設定」，打開「具有進階安全性的 Windows Defender 防火牆」。
 
 - 點選「輸入規則」，再點選「新增規則」：<br>
-![](https://i.imgur.com/3Dqt95V.jpg)
+![](images/1-10.jpg)
 
 - 點選「連接埠」：<br>
-![](https://i.imgur.com/FB9X7IO.png)
+![](images/1-11.png)
 
 - 設定你的 Port（例如 Django 預設使用 8000）：<br>
-![](https://i.imgur.com/OJFUB6O.png)
+![](images/1-12.png)
 
 之後都按照預設，選「允許連線」，並全部套用規則，再自行命名這個規則的名稱即可。
 這樣就會讓這個 Port 對外打開。如果要限定學校 IP，需要進一步作設定。
 
 請找到剛剛的新規則，點進去後，選擇「領域」，在「遠端 IP 位址」輸入允許的 IP（例如：140.116.0.0/16），按下確定。<br>
-![](https://i.imgur.com/ighKlJJ.png)
+![](images/1-13.png)
 
 這樣就能順利擋下成大以外的 IP 。
 
@@ -349,8 +349,8 @@ Proceed with operation (y|n)?
 
 - [VPN 連線說明](https://cc.ncku.edu.tw/p/412-1002-7637.php?Lang=zh-tw)（已在成大網域內無法使用）
 - 可用軟體登入, 也能用成大網頁登入<br>
-![](https://i.imgur.com/L36BvxW.png)<br>
-![](https://i.imgur.com/bONuQjd.png)
+<img src="images/1-14.png" width="600"><br>
+<img src="images/1-15.png">
 
 ## Exercise
 - 請試著練習以上內容，根據自身需求建立 python 開發環境
