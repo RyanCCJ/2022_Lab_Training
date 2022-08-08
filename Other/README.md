@@ -2,9 +2,9 @@
 
 ## 2021 暑假作業講解
 
-- Webex 會議錄製檔： undefined吳謂勝's Personal Room-20210802 0808-1暑假作業
-    密碼： uUhX29Q2
-    錄製檔鏈結： https://nckucc.webex.com/nckucc/ldr.php?RCID=39333ea1bbe8c21f24b0897f1ff0da9f
+- Webex 會議錄製檔： undefined吳謂勝's Personal Room-20210802 0808-1暑假作業  
+    密碼： uUhX29Q2  
+    錄製檔鏈結： https://nckucc.webex.com/nckucc/ldr.php?RCID=39333ea1bbe8c21f24b0897f1ff0da9f  
 
 - Webex 會議錄製檔： undefined吳謂勝's Personal Room-20210809 0809-1暑假作業
     密碼： wMdepEg2
