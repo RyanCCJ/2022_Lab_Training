@@ -57,7 +57,5 @@ python main.py -m pred -bs 64
 ```
 
 ## Videos
-- [Webex 20210917](https://nckucc.webex.com/nckucc/ldr.php?RCID=910a62f92a00f22f803236111eabcdbb)
-    password: PibVPwd2
-- [Webex 20210926](https://nckucc.webex.com/nckucc/ldr.php?RCID=156d26968c32066cc576b248a1f34ce3)
-    password: cTm27HNB
+- [Webex meeting 20210917](https://nckucc.webex.com/nckucc/ldr.php?RCID=910a62f92a00f22f803236111eabcdbb), password: PibVPwd2
+- [Webex meeting 20210926](https://nckucc.webex.com/nckucc/ldr.php?RCID=156d26968c32066cc576b248a1f34ce3), password: cTm27HNB
