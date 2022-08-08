@@ -61,7 +61,7 @@ plt.show()
 ![](https://i.imgur.com/MMbHEgC.png)
 
 之後我們就可以針對每張子圖片繪製座標與圖表資料，舉例如下：
-```pyhton
+```python
 fig = plt.figure(figsize=(20,20), dpi=100)
 ax = fig.add_subplot(n1, n2, n3)
 ax.plot(x, y, label=data+'AVG (+/- 1STE)', color='green')
