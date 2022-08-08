@@ -97,7 +97,7 @@ sns.histplot(data=penguins, x="species", hue="species", shrink=0.8, legend=False
 fig.tight_layout()
 ```
 
-<img src="images/5-5.jpg" width="800">
+<img src="images/5-5.png" width="800">
 
 ![](images/5-6.png)
 
@@ -159,7 +159,7 @@ Highcharts 是一個用純JavaScript編寫的一個前端圖表庫，
 HighCharts 官網: https://www.highcharts.com/demo
 HighCharts支持的圖表類型有很多，如下:
 - ![](images/5-10.png)
-- ![](images/5-11.png)
+- ![](images/5-11.png)<br>
 可以去 highcharts 提供的 api document 上看有沒有自己需要的 type 和他提供的功能
 https://api.highcharts.com/highcharts/series
 
@@ -179,7 +179,7 @@ https://api.highcharts.com/highcharts/series
 3. 繪製表格 
 接下來我們只要根據 Highcharts 制定好的方法將資料帶入並設定。
 - 圖表中重要的元素(會根據 type 不同有不同的組成)
-    - ![](images/5-12.png)
+    - ![](images/5-12.png)<br>
     透過上面的示意圖可以發現，Highcharts 圖表可以粗略的分成這七個主要區塊加上一個整體設定，並且在 options 物件中都有對應的屬性，Highcharts 本身都有預設設定，未必每個區塊都要額外修改。
     ```=javascript
         {
