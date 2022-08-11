@@ -1,0 +1,160 @@
+
+
+====== WebDriver manager ======
+Current google-chrome version is 103.0.5060
+Get LATEST chromedriver version for 103.0.5060 google-chrome
+Driver [/home/cosbi/.wdm/drivers/chromedriver/linux64/103.0.5060.53/chromedriver] found in cache
+  0%|          | 0/50 [00:00<?, ?it/s]  4%|▍         | 2/50 [00:00<00:05,  8.83it/s]  6%|▌         | 3/50 [00:00<00:06,  7.01it/s] 10%|█         | 5/50 [00:00<00:05,  8.86it/s] 12%|█▏        | 6/50 [00:00<00:05,  8.59it/s] 16%|█▌        | 8/50 [00:00<00:04, 10.36it/s] 20%|██        | 10/50 [00:01<00:03, 10.03it/s] 24%|██▍       | 12/50 [00:01<00:03, 11.17it/s] 28%|██▊       | 14/50 [00:11<01:03,  1.76s/it] 30%|███       | 15/50 [00:14<01:12,  2.06s/it] 32%|███▏      | 16/50 [01:07<07:26, 13.13s/it] 34%|███▍      | 17/50 [01:07<05:31, 10.05s/it] 36%|███▌      | 18/50 [01:07<04:01,  7.53s/it] 38%|███▊      | 19/50 [01:12<03:28,  6.74s/it] 40%|████      | 20/50 [01:49<07:34, 15.15s/it] 42%|████▏     | 21/50 [01:49<05:16, 10.91s/it] 46%|████▌     | 23/50 [02:04<04:09,  9.22s/it] 48%|████▊     | 24/50 [02:04<03:02,  7.03s/it] 50%|█████     | 25/50 [02:09<02:45,  6.63s/it] 52%|█████▏    | 26/50 [02:09<01:57,  4.88s/it] 54%|█████▍    | 27/50 [02:09<01:21,  3.55s/it] 58%|█████▊    | 29/50 [02:10<00:42,  2.02s/it] 62%|██████▏   | 31/50 [02:10<00:24,  1.26s/it] 66%|██████▌   | 33/50 [02:10<00:15,  1.12it/s] 68%|██████▊   | 34/50 [02:10<00:11,  1.36it/s] 70%|███████   | 35/50 [02:10<00:09,  1.65it/s] 72%|███████▏  | 36/50 [03:02<03:00, 12.92s/it] 74%|███████▍  | 37/50 [03:02<02:05,  9.64s/it] 76%|███████▌  | 38/50 [03:06<01:39,  8.25s/it] 78%|███████▊  | 39/50 [03:09<01:13,  6.66s/it] 80%|████████  | 40/50 [04:08<03:34, 21.46s/it] 82%|████████▏ | 41/50 [04:08<02:17, 15.30s/it] 84%|████████▍ | 42/50 [04:20<01:55, 14.48s/it] 86%|████████▌ | 43/50 [05:01<02:36, 22.29s/it] 90%|█████████ | 45/50 [05:01<01:00, 12.15s/it] 92%|█████████▏| 46/50 [05:02<00:36,  9.18s/it] 94%|█████████▍| 47/50 [05:06<00:23,  7.86s/it] 96%|█████████▌| 48/50 [05:09<00:13,  6.56s/it] 98%|█████████▊| 49/50 [06:02<00:19, 19.61s/it]100%|██████████| 50/50 [06:09<00:00, 16.03s/it]100%|██████████| 50/50 [06:09<00:00,  7.39s/it]
+
+
+====== WebDriver manager ======
+Current google-chrome version is 103.0.5060
+Get LATEST chromedriver version for 103.0.5060 google-chrome
+Trying to download new driver from https://chromedriver.storage.googleapis.com/103.0.5060.53/chromedriver_linux64.zip
+Driver has been saved in cache [/home/cosbi/.wdm/drivers/chromedriver/linux64/103.0.5060.53]
+  0%|          | 0/50 [00:00<?, ?it/s] 74%|███████▍  | 37/50 [00:05<00:02,  6.38it/s]100%|██████████| 50/50 [00:05<00:00,  8.58it/s]
+
+
+====== WebDriver manager ======
+Current google-chrome version is 103.0.5060
+Get LATEST chromedriver version for 103.0.5060 google-chrome
+Trying to download new driver from https://chromedriver.storage.googleapis.com/103.0.5060.53/chromedriver_linux64.zip
+Driver has been saved in cache [/home/cosbi/.wdm/drivers/chromedriver/linux64/103.0.5060.53]
+  0%|          | 0/53 [00:00<?, ?it/s]  4%|▍         | 2/53 [00:00<00:04, 12.72it/s] 13%|█▎        | 7/53 [00:00<00:01, 29.89it/s] 68%|██████▊   | 36/53 [00:00<00:00, 99.01it/s] 85%|████████▍ | 45/53 [00:01<00:00, 18.67it/s]100%|██████████| 53/53 [00:01<00:00, 26.84it/s]
+
+
+====== WebDriver manager ======
+Current google-chrome version is 103.0.5060
+Get LATEST chromedriver version for 103.0.5060 google-chrome
+Trying to download new driver from https://chromedriver.storage.googleapis.com/103.0.5060.53/chromedriver_linux64.zip
+Driver has been saved in cache [/home/cosbi/.wdm/drivers/chromedriver/linux64/103.0.5060.53]
+  0%|          | 0/53 [00:00<?, ?it/s] 49%|████▉     | 26/53 [00:00<00:00, 163.34it/s] 81%|████████  | 43/53 [00:00<00:00, 78.95it/s] 100%|██████████| 53/53 [00:00<00:00, 100.89it/s]
+
+
+====== WebDriver manager ======
+Current google-chrome version is 103.0.5060
+Get LATEST chromedriver version for 103.0.5060 google-chrome
+Trying to download new driver from https://chromedriver.storage.googleapis.com/103.0.5060.53/chromedriver_linux64.zip
+Driver has been saved in cache [/home/cosbi/.wdm/drivers/chromedriver/linux64/103.0.5060.53]
+  0%|          | 0/53 [00:00<?, ?it/s] 89%|████████▊ | 47/53 [00:00<00:00, 465.74it/s]100%|██████████| 53/53 [00:00<00:00, 466.46it/s]
+
+
+====== WebDriver manager ======
+Current google-chrome version is 103.0.5060
+Get LATEST chromedriver version for 103.0.5060 google-chrome
+Trying to download new driver from https://chromedriver.storage.googleapis.com/103.0.5060.53/chromedriver_linux64.zip
+Driver has been saved in cache [/home/cosbi/.wdm/drivers/chromedriver/linux64/103.0.5060.53]
+  0%|          | 0/54 [00:00<?, ?it/s] 19%|█▊        | 10/54 [00:04<00:20,  2.16it/s] 24%|██▍       | 13/54 [00:04<00:13,  2.98it/s]100%|██████████| 54/54 [00:04<00:00, 11.14it/s]
+
+
+====== WebDriver manager ======
+Current google-chrome version is 103.0.5060
+Get LATEST chromedriver version for 103.0.5060 google-chrome
+Trying to download new driver from https://chromedriver.storage.googleapis.com/103.0.5060.53/chromedriver_linux64.zip
+Driver has been saved in cache [/home/cosbi/.wdm/drivers/chromedriver/linux64/103.0.5060.53]
+  0%|          | 0/56 [00:00<?, ?it/s]  5%|▌         | 3/56 [00:00<00:02, 19.82it/s]  9%|▉         | 5/56 [00:00<00:02, 18.17it/s] 23%|██▎       | 13/56 [00:04<00:16,  2.65it/s] 27%|██▋       | 15/56 [00:08<00:30,  1.36it/s] 70%|██████▉   | 39/56 [00:08<00:02,  6.01it/s] 70%|██████▉   | 39/56 [00:19<00:02,  6.01it/s] 73%|███████▎  | 41/56 [01:03<00:37,  2.50s/it] 75%|███████▌  | 42/56 [01:08<00:37,  2.65s/it]100%|██████████| 56/56 [01:08<00:00,  1.23s/it]
+
+
+====== WebDriver manager ======
+Current google-chrome version is 103.0.5060
+Get LATEST chromedriver version for 103.0.5060 google-chrome
+There is no [linux64] chromedriver for browser  in cache
+Trying to download new driver from https://chromedriver.storage.googleapis.com/103.0.5060.134/chromedriver_linux64.zip
+Driver has been saved in cache [/home/cosbi/.wdm/drivers/chromedriver/linux64/103.0.5060.134]
+  0%|          | 0/57 [00:00<?, ?it/s]  9%|▉         | 5/57 [00:00<00:01, 32.82it/s] 21%|██        | 12/57 [00:08<00:34,  1.30it/s]100%|██████████| 57/57 [00:08<00:00,  6.93it/s]
+
+
+====== WebDriver manager ======
+Current google-chrome version is 103.0.5060
+Get LATEST chromedriver version for 103.0.5060 google-chrome
+Trying to download new driver from https://chromedriver.storage.googleapis.com/103.0.5060.134/chromedriver_linux64.zip
+Driver has been saved in cache [/home/cosbi/.wdm/drivers/chromedriver/linux64/103.0.5060.134]
+  0%|          | 0/59 [00:00<?, ?it/s] 10%|█         | 6/59 [00:00<00:00, 58.65it/s] 20%|██        | 12/59 [00:00<00:00, 53.47it/s] 63%|██████▎   | 37/59 [00:00<00:00, 118.92it/s]100%|██████████| 59/59 [00:00<00:00, 129.57it/s]
+
+
+====== WebDriver manager ======
+Current google-chrome version is 103.0.5060
+Get LATEST chromedriver version for 103.0.5060 google-chrome
+Trying to download new driver from https://chromedriver.storage.googleapis.com/103.0.5060.134/chromedriver_linux64.zip
+Driver has been saved in cache [/home/cosbi/.wdm/drivers/chromedriver/linux64/103.0.5060.134]
+  0%|          | 0/62 [00:00<?, ?it/s] 23%|██▎       | 14/62 [00:00<00:00, 136.50it/s] 63%|██████▎   | 39/62 [00:00<00:00, 159.88it/s] 89%|████████▊ | 55/62 [00:00<00:00, 90.53it/s] 100%|██████████| 62/62 [00:00<00:00, 111.14it/s]
+
+
+====== WebDriver manager ======
+Current google-chrome version is 103.0.5060
+Get LATEST chromedriver version for 103.0.5060 google-chrome
+Trying to download new driver from https://chromedriver.storage.googleapis.com/103.0.5060.134/chromedriver_linux64.zip
+Driver has been saved in cache [/home/cosbi/.wdm/drivers/chromedriver/linux64/103.0.5060.134]
+  0%|          | 0/62 [00:00<?, ?it/s] 76%|███████▌  | 47/62 [00:00<00:00, 466.38it/s]100%|██████████| 62/62 [00:00<00:00, 467.49it/s]
+
+
+====== WebDriver manager ======
+Current google-chrome version is 103.0.5060
+Get LATEST chromedriver version for 103.0.5060 google-chrome
+Trying to download new driver from https://chromedriver.storage.googleapis.com/103.0.5060.134/chromedriver_linux64.zip
+Driver has been saved in cache [/home/cosbi/.wdm/drivers/chromedriver/linux64/103.0.5060.134]
+  0%|          | 0/62 [00:00<?, ?it/s] 76%|███████▌  | 47/62 [00:00<00:00, 459.41it/s]100%|██████████| 62/62 [00:00<00:00, 461.21it/s]
+
+
+====== WebDriver manager ======
+Current google-chrome version is 103.0.5060
+Get LATEST chromedriver version for 103.0.5060 google-chrome
+Trying to download new driver from https://chromedriver.storage.googleapis.com/103.0.5060.134/chromedriver_linux64.zip
+Driver has been saved in cache [/home/cosbi/.wdm/drivers/chromedriver/linux64/103.0.5060.134]
+  0%|          | 0/66 [00:00<?, ?it/s] 15%|█▌        | 10/66 [00:00<00:00, 93.17it/s] 30%|███       | 20/66 [00:07<00:21,  2.15it/s] 61%|██████    | 40/66 [00:08<00:04,  5.63it/s] 74%|███████▍  | 49/66 [00:16<00:06,  2.63it/s]100%|██████████| 66/66 [00:16<00:00,  4.11it/s]
+
+
+====== WebDriver manager ======
+Current google-chrome version is 103.0.5060
+Get LATEST chromedriver version for 103.0.5060 google-chrome
+Trying to download new driver from https://chromedriver.storage.googleapis.com/103.0.5060.134/chromedriver_linux64.zip
+Driver has been saved in cache [/home/cosbi/.wdm/drivers/chromedriver/linux64/103.0.5060.134]
+  0%|          | 0/71 [00:00<?, ?it/s] 13%|█▎        | 9/71 [00:03<00:27,  2.27it/s] 15%|█▌        | 11/71 [00:05<00:32,  1.84it/s] 17%|█▋        | 12/71 [00:10<01:05,  1.11s/it] 18%|█▊        | 13/71 [00:10<00:54,  1.07it/s] 20%|█▉        | 14/71 [00:13<01:21,  1.42s/it] 27%|██▋       | 19/71 [00:13<00:31,  1.66it/s] 56%|█████▋    | 40/71 [00:13<00:04,  7.22it/s] 56%|█████▋    | 40/71 [00:30<00:04,  7.22it/s] 65%|██████▍   | 46/71 [01:10<00:59,  2.39s/it] 66%|██████▌   | 47/71 [01:13<00:58,  2.42s/it] 66%|██████▌   | 47/71 [01:30<00:58,  2.42s/it] 68%|██████▊   | 48/71 [02:09<02:24,  6.27s/it] 69%|██████▉   | 49/71 [02:11<02:09,  5.86s/it] 73%|███████▎  | 52/71 [02:17<01:30,  4.74s/it] 92%|█████████▏| 65/71 [02:17<00:10,  1.72s/it]100%|██████████| 71/71 [02:17<00:00,  1.93s/it]
+
+
+====== WebDriver manager ======
+Current google-chrome version is 103.0.5060
+Get LATEST chromedriver version for 103.0.5060 google-chrome
+Trying to download new driver from https://chromedriver.storage.googleapis.com/103.0.5060.134/chromedriver_linux64.zip
+Driver has been saved in cache [/home/cosbi/.wdm/drivers/chromedriver/linux64/103.0.5060.134]
+  0%|          | 0/77 [00:00<?, ?it/s]  1%|▏         | 1/77 [00:00<00:14,  5.27it/s]  5%|▌         | 4/77 [00:23<07:32,  6.20s/it]  6%|▋         | 5/77 [00:30<07:55,  6.61s/it]  8%|▊         | 6/77 [00:32<06:19,  5.34s/it]  9%|▉         | 7/77 [01:05<15:20, 13.15s/it] 10%|█         | 8/77 [01:06<11:07,  9.68s/it] 12%|█▏        | 9/77 [02:08<28:17, 24.96s/it] 13%|█▎        | 10/77 [02:15<22:08, 19.82s/it] 14%|█▍        | 11/77 [02:27<19:07, 17.38s/it] 27%|██▋       | 21/77 [02:27<03:06,  3.33s/it] 56%|█████▌    | 43/77 [02:27<00:32,  1.06it/s] 56%|█████▌    | 43/77 [02:39<00:32,  1.06it/s] 57%|█████▋    | 44/77 [03:06<01:26,  2.64s/it] 58%|█████▊    | 45/77 [03:08<01:22,  2.58s/it] 58%|█████▊    | 45/77 [03:20<01:22,  2.58s/it] 60%|█████▉    | 46/77 [04:04<03:32,  6.84s/it] 61%|██████    | 47/77 [04:06<03:09,  6.33s/it] 61%|██████    | 47/77 [04:20<03:09,  6.33s/it] 64%|██████▎   | 49/77 [05:04<05:18, 11.37s/it] 69%|██████▉   | 53/77 [05:04<02:46,  6.94s/it]100%|██████████| 77/77 [05:04<00:00,  3.96s/it]
+
+
+====== WebDriver manager ======
+Current google-chrome version is 103.0.5060
+Get LATEST chromedriver version for 103.0.5060 google-chrome
+Trying to download new driver from https://chromedriver.storage.googleapis.com/103.0.5060.134/chromedriver_linux64.zip
+Driver has been saved in cache [/home/cosbi/.wdm/drivers/chromedriver/linux64/103.0.5060.134]
+  0%|          | 0/77 [00:00<?, ?it/s]  3%|▎         | 2/77 [00:05<03:33,  2.84s/it]  4%|▍         | 3/77 [00:11<05:07,  4.16s/it] 39%|███▉      | 30/77 [00:11<00:11,  4.04it/s] 39%|███▉      | 30/77 [00:30<00:11,  4.04it/s] 53%|█████▎    | 41/77 [01:04<01:06,  1.84s/it] 55%|█████▍    | 42/77 [01:05<01:04,  1.84s/it] 55%|█████▍    | 42/77 [01:20<01:04,  1.84s/it] 56%|█████▌    | 43/77 [02:07<03:02,  5.37s/it] 57%|█████▋    | 44/77 [02:07<02:43,  4.96s/it]100%|██████████| 77/77 [02:07<00:00,  1.66s/it]
+
+
+====== WebDriver manager ======
+Current google-chrome version is 103.0.5060
+Get LATEST chromedriver version for 103.0.5060 google-chrome
+Trying to download new driver from https://chromedriver.storage.googleapis.com/103.0.5060.134/chromedriver_linux64.zip
+Driver has been saved in cache [/home/cosbi/.wdm/drivers/chromedriver/linux64/103.0.5060.134]
+  0%|          | 0/77 [00:00<?, ?it/s]  3%|▎         | 2/77 [00:00<00:05, 14.52it/s]  8%|▊         | 6/77 [00:00<00:03, 23.46it/s] 14%|█▍        | 11/77 [00:00<00:02, 29.79it/s] 22%|██▏       | 17/77 [00:00<00:01, 35.72it/s] 34%|███▍      | 26/77 [00:00<00:01, 38.43it/s] 49%|████▉     | 38/77 [00:00<00:00, 47.47it/s] 79%|███████▉  | 61/77 [00:01<00:00, 87.09it/s]100%|██████████| 77/77 [00:01<00:00, 70.90it/s]
+
+
+====== WebDriver manager ======
+Current google-chrome version is 103.0.5060
+Get LATEST chromedriver version for 103.0.5060 google-chrome
+Trying to download new driver from https://chromedriver.storage.googleapis.com/103.0.5060.134/chromedriver_linux64.zip
+Driver has been saved in cache [/home/cosbi/.wdm/drivers/chromedriver/linux64/103.0.5060.134]
+  0%|          | 0/34 [00:00<?, ?it/s]  6%|▌         | 2/34 [00:00<00:03, 10.21it/s] 12%|█▏        | 4/34 [00:00<00:02, 10.07it/s] 18%|█▊        | 6/34 [00:00<00:03,  8.56it/s] 21%|██        | 7/34 [00:00<00:03,  8.54it/s] 24%|██▎       | 8/34 [00:00<00:02,  8.70it/s] 26%|██▋       | 9/34 [00:01<00:02,  8.83it/s] 29%|██▉       | 10/34 [00:01<00:02,  8.25it/s] 35%|███▌      | 12/34 [00:01<00:02,  9.24it/s] 41%|████      | 14/34 [00:01<00:01, 10.30it/s] 47%|████▋     | 16/34 [00:01<00:01,  9.60it/s] 50%|█████     | 17/34 [00:01<00:01,  9.08it/s] 53%|█████▎    | 18/34 [00:02<00:01,  8.39it/s] 59%|█████▉    | 20/34 [00:02<00:01,  8.94it/s] 62%|██████▏   | 21/34 [00:02<00:01,  8.71it/s] 68%|██████▊   | 23/34 [00:02<00:01,  9.58it/s] 71%|███████   | 24/34 [00:02<00:01,  9.32it/s] 74%|███████▎  | 25/34 [00:02<00:01,  8.25it/s] 76%|███████▋  | 26/34 [00:02<00:00,  8.63it/s] 79%|███████▉  | 27/34 [00:03<00:00,  7.59it/s] 82%|████████▏ | 28/34 [00:03<00:00,  8.11it/s] 85%|████████▌ | 29/34 [00:03<00:00,  8.08it/s] 88%|████████▊ | 30/34 [00:03<00:00,  8.06it/s] 91%|█████████ | 31/34 [00:03<00:00,  8.03it/s] 97%|█████████▋| 33/34 [00:03<00:00,  8.95it/s]100%|██████████| 34/34 [00:03<00:00,  8.89it/s]
+
+
+====== WebDriver manager ======
+Current google-chrome version is 103.0.5060
+Get LATEST chromedriver version for 103.0.5060 google-chrome
+Trying to download new driver from https://chromedriver.storage.googleapis.com/103.0.5060.134/chromedriver_linux64.zip
+Driver has been saved in cache [/home/cosbi/.wdm/drivers/chromedriver/linux64/103.0.5060.134]
+  0%|          | 0/41 [00:00<?, ?it/s] 10%|▉         | 4/41 [00:00<00:01, 36.64it/s] 20%|█▉        | 8/41 [00:00<00:00, 35.14it/s] 29%|██▉       | 12/41 [00:00<00:00, 32.72it/s] 29%|██▉       | 12/41 [00:19<00:00, 32.72it/s] 44%|████▍     | 18/41 [00:27<00:52,  2.29s/it] 49%|████▉     | 20/41 [00:28<00:39,  1.87s/it] 63%|██████▎   | 26/41 [00:28<00:15,  1.04s/it] 73%|███████▎  | 30/41 [00:28<00:08,  1.36it/s] 83%|████████▎ | 34/41 [00:28<00:03,  1.91it/s]100%|██████████| 41/41 [00:30<00:00,  2.49it/s]100%|██████████| 41/41 [00:30<00:00,  1.36it/s]
+
+
+====== WebDriver manager ======
+Current google-chrome version is 103.0.5060
+Get LATEST chromedriver version for 103.0.5060 google-chrome
+Trying to download new driver from https://chromedriver.storage.googleapis.com/103.0.5060.134/chromedriver_linux64.zip
+Driver has been saved in cache [/home/cosbi/.wdm/drivers/chromedriver/linux64/103.0.5060.134]
+  0%|          | 0/49 [00:00<?, ?it/s]  6%|▌         | 3/49 [00:00<00:01, 27.27it/s] 16%|█▋        | 8/49 [00:00<00:01, 33.70it/s] 24%|██▍       | 12/49 [00:00<00:01, 22.02it/s] 47%|████▋     | 23/49 [00:07<00:11,  2.24it/s] 51%|█████     | 25/49 [00:11<00:15,  1.60it/s] 59%|█████▉    | 29/49 [00:11<00:09,  2.13it/s] 71%|███████▏  | 35/49 [00:11<00:04,  3.31it/s] 98%|█████████▊| 48/49 [00:13<00:00,  4.57it/s] 98%|█████████▊| 48/49 [00:30<00:00,  4.57it/s]100%|██████████| 49/49 [01:05<00:00,  3.14s/it]100%|██████████| 49/49 [01:05<00:00,  1.35s/it]

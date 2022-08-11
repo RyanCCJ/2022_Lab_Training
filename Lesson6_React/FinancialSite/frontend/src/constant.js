@@ -1,0 +1,1 @@
+export const rootApiIP = "http://140.116.214.154:3000/api"
