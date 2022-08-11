@@ -1,10 +1,10 @@
 # 網頁技術介紹
 
 ## [2022 most popular Web Frameworks And Technologies](https://survey.stackoverflow.co/2022/#most-popular-technologies-webframe)
-![](https://i.imgur.com/U99nY2b.png)
+![](images/6-1.png)
 
 ## [Node.js](https://nodejs.org/en/)
-![](https://i.imgur.com/51wnkYi.png)
+![](images/6-2.png)
 
 * Node.js 是什麼呢？根據官網的說法：
 >Node.js® is a JavaScript runtime built on Chrome's V8 JavaScript engine.
@@ -13,8 +13,8 @@
 
 * python -> python app.py, nodejs -> npm app.js
 
-* [15 Companies That Use Node.js in 2021 Successfully](https://www.trio.dev/blog/companies-use-node-js)
-![](https://i.imgur.com/rEOOLHb.png)
+* [15 Companies That Use Node.js in 2021 Successfully](https://www.trio.dev/blog/companies-use-node-js)  
+![](images/6-3.png)
 
 ## 為什麼要使用前端框架?
 
@@ -30,7 +30,7 @@
 
 ### 目前主流的前端新技術
 
-![](https://i.imgur.com/3mSM9Nd.png)
+![](images/6-4.png)
 
 * 這些前端框架的功能在於提升開發效率、降低維護難度的開發架構
 
@@ -139,14 +139,14 @@ export default {
 
 ## React
 
-![](https://i.imgur.com/RAvPJlw.png)
+![](images/6-5.png)
 
 ### SPA (Single-Page-Application)
-* 以往需要準備許多html，根據不同的URL去渲染
-![](https://i.imgur.com/7nFHC3R.png)
+* 以往需要準備許多html，根據不同的URL去渲染  
+![](images/6-6.png)
 
-* SPA下只會有一個html並把其中的 tag 當作"容器"而已
-![](https://i.imgur.com/mlsWYeK.png)
+* SPA下只會有一個html並把其中的 tag 當作"容器"而已  
+![](images/6-7.png)
 
 ```javascript=
 <!DOCTYPE html>
@@ -383,20 +383,20 @@ function useFriendStatus(friendID) {
 ## 推薦的套件
 
 ### [Bootstrap](https://getbootstrap.com/) 前端模板
-![](https://i.imgur.com/iE7sLG5.png)
+![](images/6-8.png)
 
 ### [Material UI](https://mui.com/zh/) 前端模板
-![](https://i.imgur.com/K2nt02F.png)
+![](images/6-9.png)  
 
-![](https://i.imgur.com/1qkZI7N.png)
+![](images/6-10.png)
 
 ### [React Router](https://reactrouter.com/) 路由
-![](https://i.imgur.com/7TKrOEL.png)
+![](images/6-11.png)  
 
-![](https://i.imgur.com/sI2sbiR.png)
+![](images/6-12.png)
 
 ### [Axios](https://www.npmjs.com/package/react-axios) API請求
-![](https://i.imgur.com/W6krwn5.png)
+![](images/6-13.png)
 
 ### [Express](https://github.com/expressjs/express) 後端框架
-![](https://i.imgur.com/c2TvMA6.png)
+![](images/6-14.png)
