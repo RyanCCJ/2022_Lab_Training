@@ -66,6 +66,6 @@ https://github.com/cosbi-nckuee/full-stack-skills
  
 ## NGS 介紹
 
-Webex 會議錄製檔： undefined吳謂勝的個人會議室-20230213 0700-1 NGS intro
+- Webex 會議錄製檔： undefined吳謂勝的個人會議室-20230213 0700-1 NGS intro
     密碼： 5wP8r3ct
     錄製檔鏈結： https://nckucc.webex.com/nckucc/ldr.php?RCID=64bc621635d977a338728beb958af4a8
