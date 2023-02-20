@@ -56,3 +56,16 @@ https://github.com/cosbi-nckuee/full-stack-skills
     密碼： DksZCRs4  
     錄製檔鏈結： https://nckucc.webex.com/nckucc/ldr.php?RCID=6e68f3c669d62a8d0c4d899c6ce1f1c8
 
+
+## R 語言
+
+- Webex 會議錄製檔： undefined吳謂勝的個人會議室-20230202 0533-1 R
+    密碼： Mjp8Rbp5
+    錄製檔鏈結： https://nckucc.webex.com/nckucc/ldr.php?RCID=869a81af96610def5d92cdbb134efaa8
+    
+ 
+## NGS 介紹
+
+Webex 會議錄製檔： undefined吳謂勝的個人會議室-20230213 0700-1 NGS intro
+    密碼： 5wP8r3ct
+    錄製檔鏈結： https://nckucc.webex.com/nckucc/ldr.php?RCID=64bc621635d977a338728beb958af4a8
