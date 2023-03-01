@@ -1,6 +1,10 @@
 ## Homework 影片彙整
 
-- Webex 會議錄製檔： 20220707 0600-1 暑假訓練課程 HW討論  
+- Webex 會議錄製檔： 20220705 0533-1 暑假 project 講解 Worm Database  
+  密碼： QfFY9vrW  
+  錄製檔鏈結： https://nckucc.webex.com/nckucc/ldr.php?RCID=0cd63e6a36aac864cc5cae67604f86c4
+
+- Webex 會議錄製檔： 20220707 0600-1 暑假訓練課程 HW 討論  
   密碼： FcYr8UtH  
   錄製檔鏈結： https://nckucc.webex.com/nckucc/ldr.php?RCID=64355c70286a577a97e3105cecc0b61e
 
