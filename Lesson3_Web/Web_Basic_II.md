@@ -1,5 +1,9 @@
 # Web Basic II
 
+> - Webex 會議錄製檔： 20220721 0603-1 新生暑期訓練 網站技術  
+> 密碼： 3Zg4MBFT  
+> 錄製檔鏈結： https://nckucc.webex.com/nckucc/ldr.php?RCID=201c1ecdfa98c3a8f1ee6409abcecff7
+
 除了基本 HTML、CSS、JavaScript 之外，我們還可以透過一些套件或框架來提升網頁開發的效率。以下會介紹兩種套件，一種是針對 CSS 開發的 Bootstrap，另一種是針對 JavaScript 開發的 jQuery。
 
 ## Bootstrap 
