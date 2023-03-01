@@ -1,5 +1,9 @@
 # Django I
 
+> - Webex 會議錄製檔： 20220728 0610-1 新生訓練 Django  
+>   密碼： 5RxcXi3d  
+>   錄製檔鏈結： https://nckucc.webex.com/nckucc/ldr.php?RCID=06c8e4682673039805d3cf9248882f5e
+
 ## 基本介紹
 
 [Django](https://docs.djangoproject.com/en/4.0/) 是一個近年相當熱門的網站框架，其模組化設計、開源社群廣大，且可以輕易整合各種 python 套件，讓它成為功能非常齊全的網站框架。除了基本的電子商務、社群網站，亦適合架設各種為了數據分析、機器學習的網頁工具。
