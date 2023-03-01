@@ -1,5 +1,9 @@
 # Web Basic
 
+> - Webex 會議錄製檔： 20220718 0610-1 暑期新生訓練 Web Basic  
+> 密碼： uYYkHBM2  
+> 錄製檔鏈結： https://nckucc.webex.com/nckucc/ldr.php?RCID=e957dc4393922165dfff011cc259bbbe
+
 ## 網站基礎
 
 在開始之前，我們先來認識網站基礎架構。
