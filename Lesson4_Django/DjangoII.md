@@ -1,5 +1,9 @@
 # Django II
 
+> - Webex 會議錄製檔： 20220801 0612-1 新生訓練 Django MySQL
+>   密碼： Zt5UKkhp
+>   錄製檔鏈結： https://nckucc.webex.com/nckucc/ldr.php?RCID=84440834dd1523b63aa43b45494dd570
+
 ## 資料庫
 
 ### 簡介
