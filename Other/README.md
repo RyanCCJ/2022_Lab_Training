@@ -2,17 +2,28 @@
 
 ## 2021 暑假作業講解
 
-- Webex 會議錄製檔： undefined吳謂勝's Personal Room-20210802 0808-1暑假作業  
+- Webex 會議錄製檔： undefined吳謂勝's Personal Room-20210802 0808-1 暑假作業 Yeast Database  
     密碼： uUhX29Q2  
     錄製檔鏈結： https://nckucc.webex.com/nckucc/ldr.php?RCID=39333ea1bbe8c21f24b0897f1ff0da9f  
 
-- Webex 會議錄製檔： undefined吳謂勝's Personal Room-20210809 0809-1暑假作業  
+- Webex 會議錄製檔： undefined吳謂勝's Personal Room-20210809 0809-1 暑假作業 Yeast Database  
     密碼： wMdepEg2  
     錄製檔鏈結： https://nckucc.webex.com/nckucc/ldr.php?RCID=40060ecc8ed2f006b5054448f193aa10
 
-- Webex 會議錄製檔： undefined吳謂勝's Personal Room-20210810 0800-1暑假作業  
+- Webex 會議錄製檔： undefined吳謂勝's Personal Room-20210810 0800-1 暑假作業 Enrichment Analysis  
     密碼： 93wYC5J9  
     錄製檔鏈結： https://nckucc.webex.com/nckucc/ldr.php?RCID=3e80652379724424207225a2d2bbdb0a
+
+
+## 2022 暑假作業講解
+
+- Webex 會議錄製檔： undefined吳謂勝's Personal Room-20220704 0215-2 暑假project講解 Worm Database  
+    密碼： pPa5wS5N  
+    錄製檔鏈結： https://nckucc.webex.com/nckucc/ldr.php?RCID=128c7474d1ba6aaa8cc02f10b44c31a6
+
+- Webex 會議錄製檔： undefined吳謂勝's Personal Room-20220705 0533-1 暑假project講解 Worm Database  
+    密碼： QfFY9vrW  
+    錄製檔鏈結： https://nckucc.webex.com/nckucc/ldr.php?RCID=0cd63e6a36aac864cc5cae67604f86c4
 
 
 ## Deep Learning
@@ -22,7 +33,7 @@ https://github.com/cosbi-nckuee/lab-training
     密碼： PibVPwd2  
     錄製檔鏈結： https://nckucc.webex.com/nckucc/ldr.php?RCID=910a62f92a00f22f803236111eabcdbb
 
-- Webex 會議錄製檔： undefined吳謂勝's Personal Room-20210926 1405-1 DL  
+- Webex 會議錄製檔： undefined吳謂勝's Personal Room-20210926 1405-1 Deep Learning  
     密碼： cTm27HNB
 
 
@@ -33,7 +44,7 @@ https://github.com/cosbi-nckuee/full-stack-skills
     密碼： 5qM9V5nY  
     錄製檔鏈結： https://nckucc.webex.com/nckucc/ldr.php?RCID=1a1b44c4bb98b875f9229f8485178ebf
 
-- Webex 會議錄製檔： undefined吳謂勝's Personal Room-20211007 1306-1網頁前後端part III  
+- Webex 會議錄製檔： undefined吳謂勝's Personal Room-20211007 1306-1 網頁前後端 part III  
     密碼： MpJQ2wiD  
     錄製檔鏈結： https://nckucc.webex.com/nckucc/ldr.php?RCID=375e4092d81e01ef44680fd087e7899d
 
