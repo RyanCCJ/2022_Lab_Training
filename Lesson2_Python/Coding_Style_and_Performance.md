@@ -1,5 +1,9 @@
 # Coding Style and Performance
 
+> - Webex 會議錄製檔： 20220714 0603-1 暑期新生訓練 Coding style  
+>   密碼： Pa2nPh5p  
+>   錄製檔鏈結： https://nckucc.webex.com/nckucc/ldr.php?RCID=add9b78518ac3a40fd3b268139f93afd
+
 ## Introduction
 當老師給你一個新的題目，可能是針對某些 gene 或 transcript 進行資料整理、統計分析、繪製圖表...。你可能心中有很多想法，並且躍躍欲試，然後寫出了你的第一個版本(A)。
 
