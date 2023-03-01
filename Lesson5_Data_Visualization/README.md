@@ -1,5 +1,9 @@
 # Lesson 5. Data Visualization
 
+> - Webex 會議錄製檔： 20220808 0609-1 新生訓練 網站visualization  
+>   密碼： pFaVT8np  
+>   錄製檔鏈結： https://nckucc.webex.com/nckucc/ldr.php?RCID=0a9fd52193ebb8afd039301d0c97bb02
+
 資料視覺化是藉助於圖形化手段，有效的傳遞資訊。有效的視覺化可以幫助使用者分析和推理資料，使複雜的資料更容易理解與運用。
 
 ## Matplotlib
