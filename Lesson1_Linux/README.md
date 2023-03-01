@@ -1,5 +1,13 @@
 # Lesson1 Linux 
 
+> - Webex 會議錄製檔： 20220704 0602-1 暑假課程第一堂Linux  
+>   密碼： Wf2pkkTC  
+>   錄製檔鏈結： https://nckucc.webex.com/nckucc/ldr.php?RCID=6f11f8774a5e6415c3b8975ab5ef3013
+>
+> - Webex 會議錄製檔： 20220707 0600-1 暑假訓練課程 HW討論  
+>   密碼： FcYr8UtH  
+>   錄製檔鏈結： https://nckucc.webex.com/nckucc/ldr.php?RCID=64355c70286a577a97e3105cecc0b61e
+
 ## Introduction
 
 Linux 指的是 [**Linux Kernel**](https://github.com/torvalds/linux) 作業系統核心，只包含系統層級的基礎元件/功能，而我們使用電腦系統必須還要有 UI（使用者介面）和一些管理程式等等。Linux distributions 則是基於 Linux Kernel 開發的作業系統，不同的 distributions 會預載不同的使用者軟體。
