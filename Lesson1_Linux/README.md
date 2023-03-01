@@ -3,10 +3,6 @@
 > - Webex 會議錄製檔： 20220704 0602-1 暑假課程第一堂Linux  
 >   密碼： Wf2pkkTC  
 >   錄製檔鏈結： https://nckucc.webex.com/nckucc/ldr.php?RCID=6f11f8774a5e6415c3b8975ab5ef3013
->
-> - Webex 會議錄製檔： 20220707 0600-1 暑假訓練課程 HW討論  
->   密碼： FcYr8UtH  
->   錄製檔鏈結： https://nckucc.webex.com/nckucc/ldr.php?RCID=64355c70286a577a97e3105cecc0b61e
 
 ## Introduction
 
