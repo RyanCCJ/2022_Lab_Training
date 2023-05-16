@@ -49,5 +49,5 @@
 
 ## 📖 Reference
 - [1. 2021 Lab Training (github)](https://github.com/ttyy66995/lab_traning)
-- [2. 2021 Lab Training (videos)](https://drive.google.com/drive/folders/1kfnuFOqX9FIlL-0zkwwAL60jpEkEPSDD)
+- [2. 2021 Lab Training (videos)](https://drive.google.com/drive/folders/1kfnuFOqX9FIlL-0zkwwAL60jpEkEPSDD) [(備用連結)](http://nas.csblab.ee.ncku.edu.tw:32200/sharing/FVB5IneWi)
 - [3. Software Architecture](https://www.freecodecamp.org/news/an-introduction-to-software-architecture-patterns)
