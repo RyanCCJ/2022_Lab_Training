@@ -1,5 +1,8 @@
 # 網頁技術介紹
-
+> - Webex 會議錄製檔： undefined吳謂勝's Personal Room-20211110 1307-1 vue, react, web socket  
+>    密碼： kQwFxAJ3  
+>    錄製檔鏈結： https://nckucc.webex.com/nckucc/ldr.php?RCID=bccdb1d6c86402b2793831a29bfa64f1
+    
 ## [2022 most popular Web Frameworks And Technologies](https://survey.stackoverflow.co/2022/#most-popular-technologies-webframe)
 ![](images/6-1.png)
 
